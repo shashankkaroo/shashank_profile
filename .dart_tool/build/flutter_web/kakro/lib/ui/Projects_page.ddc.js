@@ -287,7 +287,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "data",
         column: 29,
-        line: 128,
+        line: 124,
         file: null
       });
     },
@@ -300,7 +300,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C31 || CT.C31,
         name: null,
         column: 32,
-        line: 127,
+        line: 123,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -310,7 +310,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 25,
-        line: 127,
+        line: 123,
         file: null
       });
     },
@@ -323,7 +323,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C34 || CT.C34,
         name: null,
         column: 30,
-        line: 126,
+        line: 122,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -333,7 +333,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "height",
         column: 23,
-        line: 124,
+        line: 120,
         file: null
       });
     },
@@ -343,7 +343,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 23,
-        line: 125,
+        line: 121,
         file: null
       });
     },
@@ -353,7 +353,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 23,
-        line: 126,
+        line: 122,
         file: null
       });
     },
@@ -366,7 +366,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C37 || CT.C37,
         name: null,
         column: 28,
-        line: 123,
+        line: 119,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -374,7 +374,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
       return C43 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "splashColor",
+        name: "onTap",
         column: 21,
         line: 116,
         file: null
@@ -384,54 +384,14 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
       return C44 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "focusColor",
-        column: 21,
-        line: 117,
-        file: null
-      });
-    },
-    get C45() {
-      return C45 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "hoverColor",
-        column: 21,
-        line: 118,
-        file: null
-      });
-    },
-    get C46() {
-      return C46 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "highlightColor",
+        name: "child",
         column: 21,
         line: 119,
         file: null
       });
     },
-    get C47() {
-      return C47 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "onTap",
-        column: 21,
-        line: 120,
-        file: null
-      });
-    },
-    get C48() {
-      return C48 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 21,
-        line: 123,
-        file: null
-      });
-    },
     get C42() {
-      return C42 = dart.constList([C43 || CT.C43, C44 || CT.C44, C45 || CT.C45, C46 || CT.C46, C47 || CT.C47, C48 || CT.C48], widget_inspector._Location);
+      return C42 = dart.constList([C43 || CT.C43, C44 || CT.C44], widget_inspector._Location);
     },
     get C41() {
       return C41 = dart.const({
@@ -443,8 +403,8 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
-    get C51() {
-      return C51 = dart.const({
+    get C47() {
+      return C47 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -453,31 +413,31 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C52() {
-      return C52 = dart.const({
+    get C48() {
+      return C48 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "color",
         column: 19,
-        line: 133,
+        line: 129,
         file: null
       });
     },
-    get C50() {
-      return C50 = dart.constList([C51 || CT.C51, C52 || CT.C52], widget_inspector._Location);
+    get C46() {
+      return C46 = dart.constList([C47 || CT.C47, C48 || CT.C48], widget_inspector._Location);
     },
-    get C49() {
-      return C49 = dart.const({
+    get C45() {
+      return C45 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C50 || CT.C50,
+        parameterLocations: C46 || CT.C46,
         name: null,
         column: 24,
         line: 114,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
-    get C55() {
-      return C55 = dart.const({
+    get C51() {
+      return C51 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "elevation",
@@ -486,8 +446,8 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C56() {
-      return C56 = dart.const({
+    get C52() {
+      return C52 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "color",
@@ -496,8 +456,8 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C57() {
-      return C57 = dart.const({
+    get C53() {
+      return C53 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "margin",
@@ -506,8 +466,8 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C58() {
-      return C58 = dart.const({
+    get C54() {
+      return C54 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -516,21 +476,21 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C54() {
-      return C54 = dart.constList([C55 || CT.C55, C56 || CT.C56, C57 || CT.C57, C58 || CT.C58], widget_inspector._Location);
+    get C50() {
+      return C50 = dart.constList([C51 || CT.C51, C52 || CT.C52, C53 || CT.C53, C54 || CT.C54], widget_inspector._Location);
     },
-    get C53() {
-      return C53 = dart.const({
+    get C49() {
+      return C49 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C54 || CT.C54,
+        parameterLocations: C50 || CT.C50,
         name: null,
         column: 22,
         line: 110,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
-    get C61() {
-      return C61 = dart.const({
+    get C57() {
+      return C57 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "children",
@@ -539,21 +499,21 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C60() {
-      return C60 = dart.constList([C61 || CT.C61], widget_inspector._Location);
+    get C56() {
+      return C56 = dart.constList([C57 || CT.C57], widget_inspector._Location);
     },
-    get C59() {
-      return C59 = dart.const({
+    get C55() {
+      return C55 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C60 || CT.C60,
+        parameterLocations: C56 || CT.C56,
         name: null,
         column: 16,
         line: 99,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
-    get C64() {
-      return C64 = dart.const({
+    get C60() {
+      return C60 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "constraints",
@@ -562,8 +522,8 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C65() {
-      return C65 = dart.const({
+    get C61() {
+      return C61 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -572,13 +532,13 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         file: null
       });
     },
-    get C63() {
-      return C63 = dart.constList([C64 || CT.C64, C65 || CT.C65], widget_inspector._Location);
+    get C59() {
+      return C59 = dart.constList([C60 || CT.C60, C61 || CT.C61], widget_inspector._Location);
     },
-    get C62() {
-      return C62 = dart.const({
+    get C58() {
+      return C58 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C63 || CT.C63,
+        parameterLocations: C59 || CT.C59,
         name: null,
         column: 12,
         line: 91,
@@ -666,29 +626,25 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   let C36;
   let C43;
   let C44;
-  let C45;
-  let C46;
-  let C47;
-  let C48;
   let C42;
   let C41;
+  let C47;
+  let C48;
+  let C46;
+  let C45;
   let C51;
   let C52;
+  let C53;
+  let C54;
   let C50;
   let C49;
-  let C55;
-  let C56;
   let C57;
-  let C58;
-  let C54;
-  let C53;
-  let C61;
+  let C56;
+  let C55;
   let C60;
+  let C61;
   let C59;
-  let C64;
-  let C65;
-  let C63;
-  let C62;
+  let C58;
   Projects_page.ProjectsPageState = class ProjectsPageState extends framework.State$(Projects_page.ProjectsPage) {
     get projectList() {
       return this[projectList];
@@ -713,9 +669,9 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
       return new FadeIn.FadeIn.new(2.66, new basic.RichText.new({text: new text_span.TextSpan.new({children: JSArrayOfTextSpan().of([new text_span.TextSpan.new({text: "My ", style: new text_style.TextStyle.new({fontFamily: "Lato", color: colors.Colors.black, fontWeight: ui.FontWeight.w400, fontSize: dart.equals(dart.dload(sizingInformation, 'deviceType'), device_screen_size.DeviceScreenType.Mobile) ? 36.0 : 50.0})}), new text_span.TextSpan.new({text: "Projects ", style: new text_style.TextStyle.new({color: new ui.Color.new(4283477952), fontFamily: "Lato", fontWeight: ui.FontWeight.w900, fontSize: dart.equals(dart.dload(sizingInformation, 'deviceType'), device_screen_size.DeviceScreenType.Mobile) ? 36.0 : 50.0})})])}), $creationLocationd_0dea112b090073317d4: C22 || CT.C22}), "left", {$creationLocationd_0dea112b090073317d4: C25 || CT.C25});
     }
     [_projectsGrid](context, sizingInformation) {
-      return new basic.ConstrainedBox.new({constraints: new box.BoxConstraints.new({minHeight: media_query.MediaQuery.of(context).size.height, minWidth: media_query.MediaQuery.of(context).size.width, maxWidth: media_query.MediaQuery.of(context).size.width}), child: new basic.Wrap.new({children: JSArrayOfint().of([1, 2, 3, 4, 5, 6])[$map](card.Card, dart.fn(i => new card.Card.new({elevation: 0.0, color: colors.Colors.white, margin: new edge_insets.EdgeInsets.all(20.0), child: new material.Material.new({child: new ink_well.InkWell.new({splashColor: colors.Colors.yellow, focusColor: colors.Colors.green, hoverColor: colors.Colors.grey, highlightColor: colors.Colors.deepOrangeAccent, onTap: dart.fn(() => {
+      return new basic.ConstrainedBox.new({constraints: new box.BoxConstraints.new({minHeight: media_query.MediaQuery.of(context).size.height, minWidth: media_query.MediaQuery.of(context).size.width, maxWidth: media_query.MediaQuery.of(context).size.width}), child: new basic.Wrap.new({children: JSArrayOfint().of([1, 2, 3, 4, 5, 6])[$map](card.Card, dart.fn(i => new card.Card.new({elevation: 0.0, color: colors.Colors.white, margin: new edge_insets.EdgeInsets.all(20.0), child: new material.Material.new({child: new ink_well.InkWell.new({onTap: dart.fn(() => {
                   core.print("none");
-                }, VoidToNull()), child: new container.Container.new({height: 350.0, width: dart.notNull(media_query.MediaQuery.of(context).size.width) * 0.39, child: new basic.Center.new({child: new text.Text.new(dart.toString(i), {$creationLocationd_0dea112b090073317d4: C30 || CT.C30}), $creationLocationd_0dea112b090073317d4: C33 || CT.C33}), $creationLocationd_0dea112b090073317d4: C36 || CT.C36}), $creationLocationd_0dea112b090073317d4: C41 || CT.C41}), color: colors.Colors.white, $creationLocationd_0dea112b090073317d4: C49 || CT.C49}), $creationLocationd_0dea112b090073317d4: C53 || CT.C53}), intToCard()))[$toList](), $creationLocationd_0dea112b090073317d4: C59 || CT.C59}), $creationLocationd_0dea112b090073317d4: C62 || CT.C62});
+                }, VoidToNull()), child: new container.Container.new({height: 350.0, width: dart.notNull(media_query.MediaQuery.of(context).size.width) * 0.39, child: new basic.Center.new({child: new text.Text.new(dart.toString(i), {$creationLocationd_0dea112b090073317d4: C30 || CT.C30}), $creationLocationd_0dea112b090073317d4: C33 || CT.C33}), $creationLocationd_0dea112b090073317d4: C36 || CT.C36}), $creationLocationd_0dea112b090073317d4: C41 || CT.C41}), color: colors.Colors.white, $creationLocationd_0dea112b090073317d4: C45 || CT.C45}), $creationLocationd_0dea112b090073317d4: C49 || CT.C49}), intToCard()))[$toList](), $creationLocationd_0dea112b090073317d4: C55 || CT.C55}), $creationLocationd_0dea112b090073317d4: C58 || CT.C58});
     }
   };
   (Projects_page.ProjectsPageState.new = function() {
@@ -741,7 +697,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   dart.trackLibraries("packages/kakro/ui/Projects_page", {
     "package:kakro/ui/Projects_page.dart": Projects_page
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["Projects_page.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAUM;;;;;;;AAI+B;IAAmB;;6CAFpC;;;AAAlB;;EAA6B;;;;;;;;;;;;;MAHT,oCAAS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IASvB;;;;;;UAGoB;AACxB,YAAO,yCAAoB,SAAC,SAAS,sBAC5B,kCACI,kCACJ,AAAO,uDACL,0BAAoB,iBAAiB;IAGlD;0BAEsC;AACpC,UAAiC,YAA7B,AAAkB,iBAAD,aAAgC;AACnD,cAAO,mBAAK;;AAEZ,cAAO,8BAAuB,iBAAiB;;IAEnD;6BAEyC;AACvC,YAAO,sCAEgB,sCAAU,eACY,aAAvB,AAAY,AAAK,0BAAd,4BAAsB,aACpC,0CACkC,yCACrB,sBAChB,oBAAc,cAAS,iBAAiB,GACxC,oBAAc,cAAS,iBAAiB;IAGlD;oBAEkC,SAAS;AACzC,YAAO,uBACH,MACA,8BACQ,sCACgB,wBAClB,kCACQ,cACC,0CACO,eACE,iCACS,8BAEU,YAAX,WAAlB,iBAAiB,iBAAgC,8CAC3C,OACA,UAGd,kCACQ,oBACC,qCACE,iBAAM,yBACD,oBACW,8BAEU,YAAX,WAAlB,iBAAiB,iBAAgC,8CAC3C,OACA,uEAMpB;IACN;oBAEkC,SAAS;AACzC,YAAO,4CACU,uCACW,AAAY,AAAK,0BAAd,OAAO,yBACX,AAAY,AAAK,0BAAd,OAAO,wBACV,AAAY,AAAK,0BAAd,OAAO,uBAI1B,8BAGO,AAOR,AA2BC,mBAjCD,GACA,GACA,GACA,GACA,GACA,qBACI,QAAC,KACE,8BACM,YACG,6BACK,+BAAI,cAChB,kCACE,uCACe,kCACD,iCACA,oCACI,uCAChB;kBACL,WAAM;yCAED,qCACG,cACiC,aAAvB,AAAY,AAAK,0BAAd,OAAO,gBAAe,aACpC,6BACE,kBACH,cAAF,CAAC,+OAKK;IAI9B;;;IAtHM,oBAAc;;;EAuHtB","file":"Projects_page.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["Projects_page.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAUM;;;;;;;AAI+B;IAAmB;;6CAFpC;;;AAAlB;;EAA6B;;;;;;;;;;;;;MAHT,oCAAS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IASvB;;;;;;UAGoB;AACxB,YAAO,yCAAoB,SAAC,SAAS,sBAC5B,kCACI,kCACJ,AAAO,uDACL,0BAAoB,iBAAiB;IAGlD;0BAEsC;AACpC,UAAiC,YAA7B,AAAkB,iBAAD,aAAgC;AACnD,cAAO,mBAAK;;AAEZ,cAAO,8BAAuB,iBAAiB;;IAEnD;6BAEyC;AACvC,YAAO,sCAEgB,sCAAU,eACY,aAAvB,AAAY,AAAK,0BAAd,4BAAsB,aACpC,0CACkC,yCACrB,sBAChB,oBAAc,cAAS,iBAAiB,GACxC,oBAAc,cAAS,iBAAiB;IAGlD;oBAEkC,SAAS;AACzC,YAAO,uBACH,MACA,8BACQ,sCACgB,wBAClB,kCACQ,cACC,0CACO,eACE,iCACS,8BAEU,YAAX,WAAlB,iBAAiB,iBAAgC,8CAC3C,OACA,UAGd,kCACQ,oBACC,qCACE,iBAAM,yBACD,oBACW,8BAEU,YAAX,WAAlB,iBAAiB,iBAAgC,8CAC3C,OACA,uEAMpB;IACN;oBAEkC,SAAS;AACzC,YAAO,4CACU,uCACW,AAAY,AAAK,0BAAd,OAAO,yBACX,AAAY,AAAK,0BAAd,OAAO,wBACV,AAAY,AAAK,0BAAd,OAAO,uBAI1B,8BAGO,AAOR,AAuBC,mBA7BD,GACA,GACA,GACA,GACA,GACA,qBACI,QAAC,KACE,8BACM,YACG,6BACK,+BAAI,cAChB,kCACE,iCACE;kBACL,WAAM;yCAED,qCACG,cACiC,aAAvB,AAAY,AAAK,0BAAd,OAAO,gBAAe,aACpC,6BACE,kBACH,cAAF,CAAC,+OAKK;IAI9B;;;IAlHM,oBAAc;;;EAmHtB","file":"Projects_page.ddc.js"}');
   // Exports:
   return {
     ui__Projects_page: Projects_page
