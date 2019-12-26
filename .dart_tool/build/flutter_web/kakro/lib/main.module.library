@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","kakro|lib/ui/Home_view.dart","kakro|lib/ui/test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}

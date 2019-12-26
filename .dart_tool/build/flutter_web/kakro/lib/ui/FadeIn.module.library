@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","simple_animations|lib/simple_animations/controlled_animation.dart","simple_animations|lib/simple_animations/multi_track_tween.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

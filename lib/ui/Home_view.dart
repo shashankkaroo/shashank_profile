@@ -16,6 +16,10 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   int _selectedIndex = 0;
 
+  final aboutKey = new GlobalKey();
+  final projectKey = new GlobalKey();
+  final contactKey = new GlobalKey();
+
   @override
   Widget build(BuildContext context) {
     return BaseWidget(builder: (context, sizingInformation) {
@@ -25,19 +29,29 @@ class _HomeViewState extends State<HomeView> {
               appBar: _buildAppBar(context, sizingInformation),
               bottomNavigationBar:
                   _buildBottomNavigation(context, sizingInformation),
-              body: Center(
-                  child:
-                      returnSelectedTab(_selectedIndex, sizingInformation))));
+              body: Container(
+                height: MediaQuery.of(context).size.height,
+                  child: SingleChildScrollView(
+                child: Column(
+                  children: <Widget>[
+                   AboutMe(sizingInformation, aboutKey),
+                    ProjectsPage(projectKey),
+                   ContactPage(contactKey),
+                  ],
+                ),
+              )
+                  //returnSelectedTab(_selectedIndex, sizingInformation)
+                  )));
     });
   }
 
-  Widget returnSelectedTab(_selectedIndex, sizingInformation) {
+  returnSelectedTab(_selectedIndex) {
     if (_selectedIndex == 0) {
-      return AboutMe(sizingInformation);
+      Scrollable.ensureVisible(aboutKey.currentContext,duration: Duration(milliseconds: 550), curve: Curves.easeInOut);
     } else if (_selectedIndex == 1) {
-      return ProjectsPage();
+      Scrollable.ensureVisible(projectKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 550), curve: Curves.easeInOut);
     } else {
-      return ContactPage();
+      Scrollable.ensureVisible(contactKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 550), curve: Curves.easeInOut);
     }
   }
 
@@ -61,7 +75,7 @@ class _HomeViewState extends State<HomeView> {
               )
             ],
             currentIndex: _selectedIndex,
-            onTap: (index) => setState(() => _selectedIndex = index),
+            onTap: (index) => returnSelectedTab(index) ,
             selectedItemColor: Theme.of(context).accentColor,
           );
   }
@@ -70,7 +84,9 @@ class _HomeViewState extends State<HomeView> {
       BuildContext context, SizingInformation sizingInformation) {
     return AppBar(
       titleSpacing: 10.0,
-      centerTitle: sizingInformation.deviceType == DeviceScreenType.Mobile ? true : false,
+      centerTitle: sizingInformation.deviceType == DeviceScreenType.Mobile
+          ? true
+          : false,
       title: Text(
         "Shashank Kakroo",
         style: TextStyle(
@@ -98,7 +114,7 @@ class _HomeViewState extends State<HomeView> {
               "About Me",
             ),
             onPressed: () {
-              setState(() => _selectedIndex = 0);
+              returnSelectedTab(0);
             },
             focusColor: Colors.greenAccent,
             autofocus: true,
@@ -113,7 +129,7 @@ class _HomeViewState extends State<HomeView> {
             ),
             focusColor: Colors.greenAccent,
             onPressed: () {
-              setState(() => _selectedIndex = 1);
+              returnSelectedTab(1);
             },
           ),
           "right"),
@@ -126,7 +142,7 @@ class _HomeViewState extends State<HomeView> {
             ),
             focusColor: Colors.greenAccent,
             onPressed: () {
-              setState(() => _selectedIndex = 2);
+              returnSelectedTab(2);
             },
           ),
           "right"),

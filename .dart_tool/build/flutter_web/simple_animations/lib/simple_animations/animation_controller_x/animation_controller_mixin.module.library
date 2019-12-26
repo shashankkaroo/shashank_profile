@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/foundation.dart","flutter|lib/scheduler.dart","flutter|lib/widgets.dart","simple_animations|lib/simple_animations/animation_controller_x/animation_controller_x.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

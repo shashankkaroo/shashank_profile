@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/animation.dart","flutter|lib/widgets.dart","simple_animations|lib/simple_animations/animation_task/animation_task.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

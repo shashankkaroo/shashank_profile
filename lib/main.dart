@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:kakro/ui/Home_view.dart';
 
+import 'ui/test.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget

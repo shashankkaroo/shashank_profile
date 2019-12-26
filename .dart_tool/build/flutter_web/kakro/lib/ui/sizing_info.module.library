@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","kakro|lib/enums/device_screen_size.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

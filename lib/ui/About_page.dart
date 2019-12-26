@@ -8,9 +8,11 @@ import 'package:kakro/ui/sizing_info.dart';
 
 class AboutMe extends StatefulWidget {
   SizingInformation sizingInformation;
+  Key aboutKey;
 
-  AboutMe(SizingInformation sizingInformation) {
+  AboutMe(SizingInformation sizingInformation, aboutKey) {
     this.sizingInformation = sizingInformation;
+    this.aboutKey = aboutKey;
   }
   @override
   AboutTabState createState() => AboutTabState(sizingInformation);
@@ -82,10 +84,10 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return Container(
+        height: (sizingInformation.deviceType == DeviceScreenType.Desktop) ?  MediaQuery.of(context).size.height : null,
+        key: widget.aboutKey,
         child: _getContentForAboutMe(sizingInformation, context),
-      ),
     );
   }
 
@@ -98,8 +100,7 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
   }
 
   _buildContentForAboutMeMobile(sizingInformation, context) {
-    return SingleChildScrollView(
-      child: Container(
+    return Container(
         margin: EdgeInsets.all(10),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -139,13 +140,11 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
                 )),
           ],
         ),
-      ),
     );
   }
 
   _buildContentForAboutMeDesk(sizingInformation, context) {
-    return SingleChildScrollView(
-      child: Container(
+    return  Container(
         margin: EdgeInsets.all(60),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -184,7 +183,6 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
             _generateProfilePic()
           ],
         ),
-      ),
     );
   }
 
