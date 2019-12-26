@@ -1,0 +1,73 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=chrome lib/main.dart
+
+## exception
+
+UnsupportedError: Unsupported operation: Cannot create multiple isolates for the same app
+
+```
+#0      ChromeProxyService.createIsolate (package:dwds/src/services/chrome_proxy_service.dart:104:7)
+<asynchronous suspension>
+#1      DevHandler._handleConnection.<anonymous closure> (package:dwds/src/handlers/dev_handler.dart:254:15)
+<asynchronous suspension>
+#2      _rootRunUnary (dart:async/zone.dart:1132:38)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#4      _CustomZone.runUnaryGuarded (dart:async/zone.dart:931:7)
+#5      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:336:11)
+#6      _DelayedData.perform (dart:async/stream_impl.dart:591:14)
+#7      _StreamImplEvents.handleNext (dart:async/stream_impl.dart:707:11)
+#8      _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:667:7)
+#9      _rootRun (dart:async/zone.dart:1120:38)
+#10     _CustomZone.run (dart:async/zone.dart:1021:19)
+#11     _CustomZone.runGuarded (dart:async/zone.dart:923:7)
+#12     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:963:23)
+#13     _rootRun (dart:async/zone.dart:1124:13)
+#14     _CustomZone.run (dart:async/zone.dart:1021:19)
+#15     _CustomZone.runGuarded (dart:async/zone.dart:923:7)
+#16     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:963:23)
+#17     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#18     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#19     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:116:13)
+#20     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:173:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel unknown, v1.9.1+hotfix.6, on Mac OS X 10.15.1 19B88, locale en-AE)
+    • Flutter version 1.9.1+hotfix.6 at /Users/adcbkony/Desktop/shashank_work2.0/flutter
+    • Framework revision 68587a0916 (3 months ago), 2019-09-13 19:46:58 -0700
+    • Engine revision b863200c37
+    • Dart version 2.5.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at /Users/adcbkony/Library/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 28.0.3
+    • Java binary at: /Applications/Android Studio 2.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 11.3)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 11.3, Build version 11C29
+    • CocoaPods version 1.8.4
+
+[✓] Chrome - develop for the web
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Android Studio (version 3.4)
+    • Android Studio at /Applications/Android Studio 2.app/Contents
+    • Flutter plugin version 38.1.1
+    • Dart plugin version 183.6270
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+
+[✓] Connected device (1 available)
+    • Chrome • chrome • web-javascript • Google Chrome 79.0.3945.88 
+
+
+• No issues found!
+```

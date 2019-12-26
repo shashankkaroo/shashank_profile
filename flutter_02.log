@@ -1,0 +1,90 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=chrome --start-paused lib/main.dart
+
+## exception
+
+WipError: WipError 18837: {code: -32000, message: Cannot find context with specified id}
+
+```
+#0      AppInspector._callFunctionOn (package:dwds/src/debugging/inspector.dart:164:9)
+<asynchronous suspension>
+#1      AppInspector.sendMessage (package:dwds/src/debugging/inspector.dart:136:24)
+<asynchronous suspension>
+#2      AppInspector.toStringOf (package:dwds/src/debugging/inspector.dart:197:24)
+<asynchronous suspension>
+#3      AppInspector.instanceRefFor (package:dwds/src/debugging/inspector.dart:299:30)
+<asynchronous suspension>
+#4      Debugger._boundVariables.<anonymous closure> (package:dwds/src/debugging/debugger.dart:309:37)
+<asynchronous suspension>
+#5      MappedListIterable.elementAt (dart:_internal/iterable.dart:415:29)
+#6      ListIterator.moveNext (dart:_internal/iterable.dart:344:26)
+#7      Future.wait (dart:async/future.dart:393:26)
+#8      Debugger._boundVariables (package:dwds/src/debugging/debugger.dart:310:19)
+#9      _asyncThenWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:71:64)
+#10     _rootRunUnary (dart:async/zone.dart:1132:38)
+#11     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#12     _FutureListener.handleValue (dart:async/future_impl.dart:137:18)
+#13     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:678:45)
+#14     Future._propagateToListeners (dart:async/future_impl.dart:707:32)
+#15     Future._completeWithValue (dart:async/future_impl.dart:522:5)
+#16     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:30:15)
+#17     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:288:13)
+#18     Debugger.getProperties (package:dwds/src/debugging/debugger.dart)
+#19     _asyncThenWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:71:64)
+#20     _rootRunUnary (dart:async/zone.dart:1132:38)
+#21     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#22     _FutureListener.handleValue (dart:async/future_impl.dart:137:18)
+#23     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:678:45)
+#24     Future._propagateToListeners (dart:async/future_impl.dart:707:32)
+#25     Future._completeWithValue (dart:async/future_impl.dart:522:5)
+#26     Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:552:7)
+#27     _rootRun (dart:async/zone.dart:1124:13)
+#28     _CustomZone.run (dart:async/zone.dart:1021:19)
+#29     _CustomZone.runGuarded (dart:async/zone.dart:923:7)
+#30     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:963:23)
+#31     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#32     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#33     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:116:13)
+#34     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:173:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel unknown, v1.9.1+hotfix.6, on Mac OS X 10.15.1 19B88, locale en-AE)
+    • Flutter version 1.9.1+hotfix.6 at /Users/adcbkony/Desktop/shashank_work2.0/flutter
+    • Framework revision 68587a0916 (3 months ago), 2019-09-13 19:46:58 -0700
+    • Engine revision b863200c37
+    • Dart version 2.5.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at /Users/adcbkony/Library/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 28.0.3
+    • Java binary at: /Applications/Android Studio 2.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 11.3)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 11.3, Build version 11C29
+    • CocoaPods version 1.8.4
+
+[✓] Chrome - develop for the web
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Android Studio (version 3.4)
+    • Android Studio at /Applications/Android Studio 2.app/Contents
+    • Flutter plugin version 38.1.1
+    • Dart plugin version 183.6270
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+
+[✓] Connected device (1 available)
+    • Chrome • chrome • web-javascript • Google Chrome 79.0.3945.88 
+
+
+• No issues found!
+```

@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+import 'package:kakro/ui/Home_view.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget
+{
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context)
+  {
+    return new MaterialApp(
+      title: 'Shashank Kakroo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          brightness: Brightness.light,
+          primaryColorBrightness: Brightness.light,
+          accentColorBrightness: Brightness.light,
+          fontFamily: 'Lato'
+          ),
+      home: new HomeView(),
+    );
+  }
+}
