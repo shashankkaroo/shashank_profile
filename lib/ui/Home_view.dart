@@ -47,11 +47,11 @@ class _HomeViewState extends State<HomeView> {
 
   returnSelectedTab(_selectedIndex) {
     if (_selectedIndex == 0) {
-      Scrollable.ensureVisible(aboutKey.currentContext,duration: Duration(milliseconds: 550), curve: Curves.easeInOut);
+      Scrollable.ensureVisible(aboutKey.currentContext,duration: Duration(milliseconds: 400), curve: Curves.easeInOut);
     } else if (_selectedIndex == 1) {
-      Scrollable.ensureVisible(projectKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 550), curve: Curves.easeInOut);
+      Scrollable.ensureVisible(projectKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 400), curve: Curves.easeInOut);
     } else {
-      Scrollable.ensureVisible(contactKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 550), curve: Curves.easeInOut);
+      Scrollable.ensureVisible(contactKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 400), curve: Curves.easeInOut);
     }
   }
 

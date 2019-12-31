@@ -92,10 +92,12 @@ let modulePaths = {
  "packages/kakro/ui/test": "packages/kakro/ui/test.ddc",
  "packages/kakro/utils/ui_utils": "packages/kakro/utils/ui_utils.ddc",
  "packages/meta/meta": "packages/meta/meta.ddc",
- "packages/responsive_grid/responsive_grid": "packages/responsive_grid/responsive_grid.ddc",
+ "packages/plugin_platform_interface/plugin_platform_interface": "packages/plugin_platform_interface/plugin_platform_interface.ddc",
  "packages/simple_animations/simple_animations/controlled_animation": "packages/simple_animations/simple_animations/controlled_animation.ddc",
  "packages/simple_animations/simple_animations/multi_track_tween": "packages/simple_animations/simple_animations/multi_track_tween.ddc",
  "packages/typed_data/typed_buffers": "packages/typed_data/typed_buffers.ddc",
+ "packages/url_launcher/url_launcher": "packages/url_launcher/url_launcher.ddc",
+ "packages/url_launcher_platform_interface/method_channel_url_launcher": "packages/url_launcher_platform_interface/method_channel_url_launcher.ddc",
  "packages/vector_math/hash": "packages/vector_math/hash.ddc",
  "packages/vector_math/vector_math_64": "packages/vector_math/vector_math_64.ddc"
 };

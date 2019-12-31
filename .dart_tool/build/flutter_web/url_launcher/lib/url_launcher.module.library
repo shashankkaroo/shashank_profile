@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/foundation.dart","flutter|lib/services.dart","flutter|lib/widgets.dart","url_launcher_platform_interface|lib/url_launcher_platform_interface.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

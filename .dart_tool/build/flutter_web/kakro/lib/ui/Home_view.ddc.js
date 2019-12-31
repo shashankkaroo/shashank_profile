@@ -1107,11 +1107,11 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/kakro/ui/B
     }
     returnSelectedTab(_selectedIndex) {
       if (dart.equals(_selectedIndex, 0)) {
-        scrollable.Scrollable.ensureVisible(this.aboutKey.currentContext, {duration: new core.Duration.new({milliseconds: 550}), curve: curves.Curves.easeInOut});
+        scrollable.Scrollable.ensureVisible(this.aboutKey.currentContext, {duration: new core.Duration.new({milliseconds: 400}), curve: curves.Curves.easeInOut});
       } else if (dart.equals(_selectedIndex, 1)) {
-        scrollable.Scrollable.ensureVisible(this.projectKey.currentContext, {alignment: 0.0, duration: new core.Duration.new({milliseconds: 550}), curve: curves.Curves.easeInOut});
+        scrollable.Scrollable.ensureVisible(this.projectKey.currentContext, {alignment: 0.0, duration: new core.Duration.new({milliseconds: 400}), curve: curves.Curves.easeInOut});
       } else {
-        scrollable.Scrollable.ensureVisible(this.contactKey.currentContext, {alignment: 0.0, duration: new core.Duration.new({milliseconds: 550}), curve: curves.Curves.easeInOut});
+        scrollable.Scrollable.ensureVisible(this.contactKey.currentContext, {alignment: 0.0, duration: new core.Duration.new({milliseconds: 400}), curve: curves.Curves.easeInOut});
       }
     }
     [_buildBottomNavigation](context, sizingInformation) {

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["meta|lib/meta.dart","plugin_platform_interface|lib/plugin_platform_interface.dart","url_launcher_platform_interface|lib/method_channel_url_launcher.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}
