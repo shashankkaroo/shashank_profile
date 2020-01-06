@@ -1,11 +1,11 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../enums/device_screen_size.dart';
 import 'BaseWidget.dart';
 import 'FadeIn.dart';
 import 'sizing_info.dart';
+import 'package:universal_html/prefer_universal/html.dart' as html;
 
 class ProjectsPage extends StatefulWidget {
   static const String routeName = "/projects";
@@ -19,22 +19,32 @@ class ProjectsPage extends StatefulWidget {
 class ProjectsPageState extends State<ProjectsPage> {
   final projectList = [
     {
-      "title": "Artbandhu",
+      "title": "Artbandhu - Career Discovery Platform",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/Screen%20Shot%202019-12-30%20at%204.25.43%20PM.png?alt=media&token=03697eb1-6809-4f88-bf3c-3bfd482bea2d",
+          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/artbandhu.png?alt=media&token=3d5c3831-6f00-4522-be71-3db8f4ced9a1",
       "text": "Social Art Feed Application for local artist and community",
-      "techUsed": " < Flutter, Native Android, Firebase, iOS /> ",
+      "summary":
+          "Artbandhu app helps millions of creative professionals/artist succeed with upskilling and on-demand creative jobs & monetization opportunities, around the world",
+      "summary2":
+          "Worked on front end for the app with Dart and Flutter \nSocial Logins using firebase authentication \nUsed Firebase storage for file uploads \nEnsuring project quality and timely resolution of issues.",
+      "techUsed":
+          "Flutter, Dart, Firebase Authentication, Firebase Storage, Native Android, iOS ",
       "storeLink":
           "https://play.google.com/store/apps/details?id=com.artbandhu.Artbandhu",
       "color": Colors.amber.shade50.withOpacity(0.9),
       "txtColor": Colors.orange
     },
     {
-      "title": "Home Workouts",
+      "title": "FitApp - Home Workouts Guide",
+      "text": "Home Workout application with Tips for weight loss",
+      "summary2":
+          "Designed and developed front end for the app with Native Android, Java \nUsed Firebase Storage and Firebase Database for application data\nFirebase Cloud messaging for Implementing Push Notifications\nWorked end to end from designing to app upload process",
+      "summary":
+          "Home Workouts and Fitness Application helps to improve fitness and health by providing programs specific to body parts and exercise routines of indivisuals",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/Screen%20Shot%202019-12-30%20at%204.26.44%20PM.png?alt=media&token=7813e058-2b3a-4912-b6b1-4aa931b2b8a0",
-      "text": "Home Workouts and Fitness Application",
-      "techUsed": " < Native Android, Firebase, Cloud Messaging /> ",
+          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/fit.png?alt=media&token=096b9613-65ae-4e7b-aa9c-b41594e1cd3f",
+      "techUsed":
+          " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage, Firebase Database",
       "storeLink":
           "https://play.google.com/store/apps/details?id=com.kakroo.shashank.fitapp",
       "color": Colors.lime.shade100.withOpacity(0.9),
@@ -42,10 +52,15 @@ class ProjectsPageState extends State<ProjectsPage> {
     },
     {
       "title": "Gulf VPN",
+      "text": "Open VPN Client for Android",
+      "summary2":
+          "Designed and developed front end for the app with Native Android\nImplemented Open VPN SDK for android\nWorked on google in app purchase",
+      "summary":
+          "Gulf VPN with help of Open VPN SDK provides users access to more than 100 remote servers for securing their connections",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/Screen%20Shot%202019-12-30%20at%204.27.03%20PM.png?alt=media&token=e71d7c82-f4b1-4494-b6ca-3c04b93dad68",
-      "text": "Android Open VPN Client",
-      "techUsed": " < Native Android, Firebase, Cloud Messaging, Open VPN /> ",
+          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/vpn.png?alt=media&token=444b6163-a138-4653-aae0-15ed03a4ff08",
+      "techUsed":
+          " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage, Open VPN",
       "storeLink":
           "https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.gulfVPN",
       "color": Colors.lightBlueAccent.shade100.withOpacity(0.9),
@@ -53,35 +68,51 @@ class ProjectsPageState extends State<ProjectsPage> {
     },
     {
       "title": "My Android",
+      "summary":
+          "My Android application helps you with all details related to your android device such as RAM, Memory Utilized, Internet Compumption etc",
+      "summary2":
+          "Designed and developed front end for the app with Native Android\nEnsuring project quality and timely resolution of issues.",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/Screen%20Shot%202019-12-30%20at%204.26.56%20PM.png?alt=media&token=7622e292-763d-40b2-b724-a8b675e13472",
+          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/myandroid.png?alt=media&token=b1ce4864-4d5c-45e9-81de-14ee5c3c6ab8",
       "text": "Android Utility Application",
-      "techUsed": "< Native Android, Firebase, Cloud Messaging />",
+      "techUsed":
+          " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage",
       "storeLink":
           "https://play.google.com/store/apps/details?id=com.innovationm.myandroid",
       "color": Colors.yellowAccent.shade100.withOpacity(0.9),
       "txtColor": Colors.deepOrangeAccent.shade200
     },
     {
-      "title": "MOCI, Qatar",
-      "image":
-          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/Screen%20Shot%202019-12-30%20at%204.27.11%20PM.png?alt=media&token=b53da951-1b07-48c6-88bc-9b1fa58ac057",
-      "text": "Municipality & Management App",
-      "techUsed": "< Kony, Native Android, Firebase, Cloud Messaging />",
-      "storeLink": "https://play.google.com/store/apps/details?id=com.mbt.mbt",
-      "color": Colors.lightGreenAccent.shade100.withOpacity(0.9),
-      "txtColor": Colors.blue.shade700
-    },
-    {
       "title": "Ooredoo, Qatar",
+      "text": "HRMS Mobile Application",
+      "summary2":
+          "Configured Kony services  over Kony fabric that collaborates with backend services\nWritten Java pre-processors and post -processors\n.Worked on Android push notification implementation with Kony\nWritten android native code and implemented with Kony as FFI.",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/Screen%20Shot%202019-12-30%20at%204.27.35%20PM.png?alt=media&token=e552110c-1c42-49d5-a2a6-237c99df1040",
-      "text": "Mobile Recharge Application",
-      "techUsed": "< Kony, Native Android, Firebase, Cloud Messaging />",
+          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/ooredoo.png?alt=media&token=d0fb7c7b-9226-4135-a035-0abb3a03af56",
+      "summary":
+          "This application is HRMS application targeted for Ooredoo Qatar employees which is an implementation of their oracle based portal.",
+      "techUsed":
+          "Kony Vizualizer 8.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging",
       "storeLink":
           "https://play.google.com/store/apps/details?id=qa.ooredoo.android",
       "color": Colors.deepOrangeAccent.shade100.withOpacity(0.9),
       "txtColor": Colors.deepOrangeAccent.shade700
+    },
+    {
+      "title": "Ministry of Economy and Commerce B2C– Qatar",
+      "summary":
+          "This application is a B2C app for businesses and citizens of Qatar. This app provides a platform for businesses to register and carry all taxation related transactions. For citizens this app acts as a medium of information to understand their quota of food grains allotted along with and knowing the daily rates",
+      "summary2":
+          "Worked on Kony JSON services  over Kony fabric\nWritten Java pre-processors and post -processors\nWorked on Integration of ArGis Native Maps with Kony Application\nIntegration of JavaScript based Maps SDK with Kony Application\nWritten android native code and implemented with Kony as FFI.",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/qatar.png?alt=media&token=35f7d8b1-ebfc-4f90-90ac-3267cb1bda59",
+      "text": "B2C App for Businesses and Citizens of Qatar",
+      "techUsed":
+          "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging, ArGis Native Maps",
+      "storeLink":
+          "https://play.google.com/store/apps/details?id=com.mbt.mbt&hl=en",
+      "color": Colors.lightGreenAccent.shade100.withOpacity(0.9),
+      "txtColor": Colors.lightGreenAccent.shade700
     },
   ];
 
@@ -98,10 +129,24 @@ class ProjectsPageState extends State<ProjectsPage> {
 
   _getProjectsContent(SizingInformation sizingInformation) {
     if (sizingInformation.deviceType == DeviceScreenType.Mobile) {
-      return Text("Mobile");
+      return _getContentForProjMob(sizingInformation);
     } else {
       return _getContentForProjDesk(sizingInformation);
     }
+  }
+
+  _getContentForProjMob(SizingInformation sizingInformation) {
+    return Container(
+        alignment: Alignment.center,
+        margin: EdgeInsets.only(top: 60),
+        width: MediaQuery.of(context).size.width * 0.86,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            _buildAboutMe(context, sizingInformation),
+            _projectsGrid(context, sizingInformation)
+          ],
+        ));
   }
 
   _getContentForProjDesk(SizingInformation sizingInformation) {
@@ -157,94 +202,172 @@ class ProjectsPageState extends State<ProjectsPage> {
   Widget _projectsGrid(BuildContext context, sizingInformation) {
     return Container(
         alignment: Alignment.center,
-        margin: EdgeInsets.only(top: 20),
+        margin: EdgeInsets.only(top: 35),
         child: ConstrainedBox(
             constraints: BoxConstraints(
               minHeight: MediaQuery.of(context).size.height,
               minWidth: MediaQuery.of(context).size.width,
             ),
             child: Wrap(
-                spacing: 10,
-                runSpacing: 10,
+                runSpacing: 30,
                 children: projectList.map((i) {
                   return Card(
                     elevation: 0,
-                    color: Colors.white,
+                    color: Colors.transparent,
                     child: Container(
-                      alignment: Alignment.center,
-                      height: MediaQuery.of(context).size.width * 0.32,
-                      width: MediaQuery.of(context).size.width * 0.415,
-                      child: Stack(
-                        children: <Widget>[
-                          Positioned.fill(child: Image.network(i['image'])),
-                          BackdropFilter(
-                              filter:
-                                  ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
-                              child: new Container(
-                                padding: EdgeInsets.all(20),
-                                decoration:
-                                    new BoxDecoration(color: i['color']),
-                                child: Center(
-                                    child: Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: <Widget>[
-                                      Text(i['title'],
-                                          style: TextStyle(
-                                              color: i['txtColor'],
-                                              fontSize: 48,
-                                              //backgroundColor: Colors.white,
-
-                                              fontFamily: 'Lato',
-                                              fontWeight: FontWeight.bold)),
-                                      Text(i['text'],
-                                          style: TextStyle(
-                                              color: i['txtColor'],
-                                              fontSize: 28,
-                                              //backgroundColor: Colors.white,
-                                              fontFamily: 'Lato')),
-                                      Container(
-                                          margin: EdgeInsets.only(
-                                              top: 10, bottom: 10),
-                                          child: GestureDetector(
-                                              onTap: () {
-                                                _launchURL(i["storeLink"]);
-                                              },
-                                              child: ClipOval(
-                                                child: Container(
-                                                  color: Color(0xFF50AFC0),
-                                                  height:
-                                                      56.0, // height of the button
-                                                  width:
-                                                      56.0, // width of the button
-                                                  child: Center(
-                                                      child: Icon(
-                                                    Icons.link,
-                                                    color: Colors.white,
-                                                    size: 35,
-                                                  )),
-                                                ),
-                                              ))),
-                                      Text(i['techUsed'],
-                                          style: TextStyle(
-                                              color: i['txtColor'],
-                                              fontSize: 20,
-                                              //backgroundColor: Colors.white,
-                                              fontFamily: 'Lato')),
-                                    ])),
-                              ))
-                        ],
-                      ),
-                    ),
+                        alignment: Alignment.center,
+                        margin: EdgeInsets.only(top: 30),
+                        height: sizingInformation.deviceType ==
+                                DeviceScreenType.Mobile
+                            ? null
+                            : MediaQuery.of(context).size.width * 0.30,
+                        width: MediaQuery.of(context).size.width,
+                        child: Container(
+                            child: sizingInformation.deviceType ==
+                                    DeviceScreenType.Mobile
+                                ? Column(
+                                    children: <Widget>[
+                                      _sectionImage(i, sizingInformation),
+                                      _sectionData(i, sizingInformation)
+                                    ],
+                                  )
+                                : Row(
+                                    mainAxisAlignment:
+                                        (projectList.indexOf(i).isOdd)
+                                            ? MainAxisAlignment.end
+                                            : MainAxisAlignment.start,
+                                    children: <Widget>[
+                                      (projectList.indexOf(i).isOdd)
+                                          ? Container(
+                                              margin:
+                                                  EdgeInsets.only(right: 50),
+                                              child: _sectionData(
+                                                  i, sizingInformation))
+                                          : _sectionImage(i, sizingInformation),
+                                      (projectList.indexOf(i).isOdd)
+                                          ? _sectionImage(i, sizingInformation)
+                                          : _sectionData(i, sizingInformation)
+                                    ],
+                                  ))),
                   );
                 }).toList())));
   }
 
-  _launchURL(url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+  _launchURL(url) async
+  {
+    html.document.window.location.href = url;
+  }
+
+  _sectionImage(i, sizingInformation) {
+    return Container(
+        height: sizingInformation.deviceType == DeviceScreenType.Mobile
+            ? MediaQuery.of(context).size.width * 0.80
+            : MediaQuery.of(context).size.width * 0.30,
+        width: sizingInformation.deviceType == DeviceScreenType.Mobile
+            ? MediaQuery.of(context).size.width
+            : MediaQuery.of(context).size.width * 0.30,
+        child: Stack(
+          children: <Widget>[
+            Container(
+                height: sizingInformation.deviceType == DeviceScreenType.Mobile
+                    ? MediaQuery.of(context).size.width * 0.52
+                    : MediaQuery.of(context).size.width * 0.22,
+                width: sizingInformation.deviceType == DeviceScreenType.Mobile
+                    ? null
+                    : MediaQuery.of(context).size.width * 0.18,
+                color: i['color']),
+            Positioned(
+                left: 40.0,
+                top: 35.0,
+                height: sizingInformation.deviceType == DeviceScreenType.Mobile
+                    ? MediaQuery.of(context).size.width * 0.80
+                    : MediaQuery.of(context).size.width * 0.25,
+                width: sizingInformation.deviceType == DeviceScreenType.Mobile
+                    ? null
+                    : MediaQuery.of(context).size.width * 0.25,
+                child: Image.network(i['image']))
+          ],
+        ));
+  }
+
+  _sectionData(i, sizingInformation) {
+    return Container(
+      margin: sizingInformation.deviceType == DeviceScreenType.Mobile ? EdgeInsets.only(top : 20) : null,
+        height: sizingInformation.deviceType == DeviceScreenType.Mobile
+            ? null
+            : MediaQuery.of(context).size.width * 0.30,
+        width: sizingInformation.deviceType == DeviceScreenType.Mobile
+            ? MediaQuery.of(context).size.width
+            : MediaQuery.of(context).size.width * 0.45,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text(i['title'],
+                textAlign: TextAlign.start,
+                style: TextStyle(fontSize: 22.0, wordSpacing: 3.0)),
+            Container(
+              margin: EdgeInsets.only(top: 5),
+              child: Text(i['text'],
+                  textAlign: TextAlign.start,
+                  style: TextStyle(fontSize: 15.0, wordSpacing: 2.0)),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 15),
+              child: Text(i['summary'],
+                  textAlign: TextAlign.start,
+                  style: TextStyle(
+                      fontSize: 14.0, color: Colors.black54, wordSpacing: 2.0)),
+            ),
+            _buildSkillsContainerHeading("Responsibilities"),
+            Container(
+              margin: EdgeInsets.only(top: 5),
+              child: Text(i['summary2'],
+                  textAlign: TextAlign.start,
+                  style: TextStyle(
+                      fontSize: 14.0, color: Colors.black54, wordSpacing: 2.0)),
+            ),
+            _buildSkills(context, i, sizingInformation),
+          ],
+        ));
+  }
+
+  Widget _buildSkills(BuildContext context, i, sizingInformation) {
+    String tech = i['techUsed'];
+    final List<Widget> widgets = tech
+        .split(",")
+        .map((skill) => Padding(
+              padding: EdgeInsets.only(right: 8.0),
+              child: _buildSkillChip(context, skill),
+            ))
+        .toList();
+
+    return Container(
+        margin: EdgeInsets.only(top: 12),
+        width: sizingInformation.deviceType == DeviceScreenType.Mobile ? null : MediaQuery.of(context).size.width * 0.50,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            _buildSkillsContainerHeading("Skills Used"),
+            Wrap(children: widgets),
+          ],
+        ));
+  }
+
+  Widget _buildSkillsContainerHeading(String text) {
+    return Container(
+        margin: EdgeInsets.only(top: 10),
+        child: Text(text, style: TextStyle(fontSize: 16.0, wordSpacing: 3.0)));
+  }
+
+  Widget _buildSkillChip(BuildContext context, String label) {
+    return Chip(
+      label: Text(
+        label,
+        style: TextStyle(
+          fontSize: 10,
+        ),
+      ),
+    );
   }
 }

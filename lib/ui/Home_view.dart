@@ -6,6 +6,9 @@ import 'package:kakro/ui/Contact_page.dart';
 import 'package:kakro/ui/FadeIn.dart';
 import 'package:kakro/ui/Projects_page.dart';
 import 'package:kakro/ui/sizing_info.dart';
+import 'package:universal_html/prefer_universal/html.dart' as html;
+
+
 
 class HomeView extends StatefulWidget {
   HomeView({Key key}) : super(key: key);
@@ -29,29 +32,57 @@ class _HomeViewState extends State<HomeView> {
               appBar: _buildAppBar(context, sizingInformation),
               bottomNavigationBar:
                   _buildBottomNavigation(context, sizingInformation),
+              floatingActionButton:
+                  buildFloatingButton(context, sizingInformation),
               body: Container(
-                height: MediaQuery.of(context).size.height,
+                  height: MediaQuery.of(context).size.height,
                   child: SingleChildScrollView(
-                child: Column(
-                  children: <Widget>[
-                   AboutMe(sizingInformation, aboutKey),
-                    ProjectsPage(projectKey),
-                   ContactPage(contactKey),
-                  ],
-                ),
-              )
+                    child: Column(
+                      children: <Widget>[
+                        AboutMe(sizingInformation, aboutKey),
+                        ProjectsPage(projectKey),
+                        ContactPage(contactKey),
+                      ],
+                    ),
+                  )
                   //returnSelectedTab(_selectedIndex, sizingInformation)
                   )));
     });
   }
 
+  _launchURL(url) async
+  {
+    html.document.window.location.href = url;
+  }
+
+  buildFloatingButton(context, sizingInformation) {
+    return (sizingInformation.deviceType == DeviceScreenType.Mobile)
+        ? FloatingActionButton(
+            onPressed: () {
+              print("on pressed");
+              _launchURL("https://wa.me/971564699985");
+            },
+        mini: false,
+        hoverElevation: 5,
+            child: Image.network("https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/whatsapp.png?alt=media&token=bbf5ff50-8233-47d4-a2cc-c38692dd42e7")
+          )
+        : null;
+  }
+
   returnSelectedTab(_selectedIndex) {
     if (_selectedIndex == 0) {
-      Scrollable.ensureVisible(aboutKey.currentContext,duration: Duration(milliseconds: 400), curve: Curves.easeInOut);
+      Scrollable.ensureVisible(aboutKey.currentContext,
+          duration: Duration(milliseconds: 400), curve: Curves.easeInOut);
     } else if (_selectedIndex == 1) {
-      Scrollable.ensureVisible(projectKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 400), curve: Curves.easeInOut);
+      Scrollable.ensureVisible(projectKey.currentContext,
+          alignment: 0.0,
+          duration: Duration(milliseconds: 400),
+          curve: Curves.easeInOut);
     } else {
-      Scrollable.ensureVisible(contactKey.currentContext,alignment: 0.0, duration: Duration(milliseconds: 400), curve: Curves.easeInOut);
+      Scrollable.ensureVisible(contactKey.currentContext,
+          alignment: 0.0,
+          duration: Duration(milliseconds: 400),
+          curve: Curves.easeInOut);
     }
   }
 
@@ -75,7 +106,7 @@ class _HomeViewState extends State<HomeView> {
               )
             ],
             currentIndex: _selectedIndex,
-            onTap: (index) => returnSelectedTab(index) ,
+            onTap: (index) => returnSelectedTab(index),
             selectedItemColor: Theme.of(context).accentColor,
           );
   }

@@ -29,6 +29,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.11"
+  convert:
+    dependency: transitive
+    description:
+      name: convert
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.1"
+  csslib:
+    dependency: transitive
+    description:
+      name: csslib
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.16.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -46,6 +60,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  html:
+    dependency: transitive
+    description:
+      name: html
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.14.0+3"
   matcher:
     dependency: transitive
     description:
@@ -74,13 +95,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0+1"
-  plugin_platform_interface:
+  petitparser:
     dependency: transitive
     description:
-      name: plugin_platform_interface
+      name: petitparser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1"
+    version: "2.4.0"
   quiver:
     dependency: transitive
     description:
@@ -149,20 +170,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.6"
-  url_launcher:
+  universal_html:
     dependency: "direct main"
     description:
-      name: url_launcher
+      name: universal_html
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.2.7"
-  url_launcher_platform_interface:
+    version: "1.1.9"
+  universal_io:
     dependency: transitive
     description:
-      name: url_launcher_platform_interface
+      name: universal_io
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.5"
+    version: "0.8.3"
   vector_math:
     dependency: transitive
     description:
@@ -170,6 +191,19 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.8"
+  xml:
+    dependency: transitive
+    description:
+      name: xml
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.5.0"
+  zone_local:
+    dependency: transitive
+    description:
+      name: zone_local
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.1"
 sdks:
   dart: ">=2.4.0 <3.0.0"
-  flutter: ">=1.9.1+hotfix.4 <2.0.0"
