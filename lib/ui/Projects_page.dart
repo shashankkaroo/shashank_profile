@@ -82,6 +82,23 @@ class ProjectsPageState extends State<ProjectsPage> {
       "color": Colors.yellowAccent.shade100.withOpacity(0.9),
       "txtColor": Colors.deepOrangeAccent.shade200
     },
+
+    {
+      "title": "Abu Dhabi Commercial Bank - PROCASH",
+      "text" : "ADCB Coorporate Banking Applicaton",
+      "summary":"This application is the ADCB's Coorporate Banking Applicaton, enabling coorporates to do trasaction Initiations, request approvals and give account insights ",
+      "summary2":
+      "Configured Kony services  over Kony fabric that collaborates with backend services\nWorked on Biometrics integration on mobile\nWorked on transaction initiation module from front end\nWritten android native code and implemented with Kony as FFI",
+      "image":
+      "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/procash.png?alt=media&token=a63567af-ab05-40c2-a925-58eac5527a9c",
+      "techUsed":
+      "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android",
+      "storeLink":
+      "https://play.google.com/store/apps/details?id=com.adcbapp.ProCashLite&hl=en",
+      "color": Colors.lightGreenAccent.shade100.withOpacity(0.9),
+      "txtColor": Colors.lightGreenAccent.shade700
+    },
+
     {
       "title": "Ooredoo, Qatar",
       "text": "HRMS Mobile Application",
@@ -101,17 +118,33 @@ class ProjectsPageState extends State<ProjectsPage> {
     {
       "title": "Ministry of Economy and Commerce B2C– Qatar",
       "summary":
-          "This application is a B2C app for businesses and citizens of Qatar. This app provides a platform for businesses to register and carry all taxation related transactions. For citizens this app acts as a medium of information to understand their quota of food grains allotted along with and knowing the daily rates",
+      "This application is a B2C app for businesses and citizens of Qatar. This app provides a platform for businesses to register and carry all taxation related transactions. For citizens this app acts as a medium of information to understand their quota of food grains allotted along with and knowing the daily rates",
       "summary2":
-          "Worked on Kony JSON services  over Kony fabric\nWritten Java pre-processors and post -processors\nWorked on Integration of ArGis Native Maps with Kony Application\nIntegration of JavaScript based Maps SDK with Kony Application\nWritten android native code and implemented with Kony as FFI.",
+      "Worked on Kony JSON services  over Kony fabric\nWritten Java pre-processors and post -processors\nWorked on Integration of ArGis Native Maps with Kony Application\nIntegration of JavaScript based Maps SDK with Kony Application.",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/qatar.png?alt=media&token=35f7d8b1-ebfc-4f90-90ac-3267cb1bda59",
+      "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/qatar.png?alt=media&token=35f7d8b1-ebfc-4f90-90ac-3267cb1bda59",
       "text": "B2C App for Businesses and Citizens of Qatar",
       "techUsed":
-          "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging, ArGis Native Maps",
+      "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging, ArGis Native Maps",
       "storeLink":
-          "https://play.google.com/store/apps/details?id=com.mbt.mbt&hl=en",
-      "color": Colors.lightGreenAccent.shade100.withOpacity(0.9),
+      "https://play.google.com/store/apps/details?id=com.mbt.mbt&hl=en",
+      "color": Colors.purpleAccent.shade100.withOpacity(0.9),
+      "txtColor": Colors.purpleAccent.shade700
+    },
+    {
+      "title": "QR Employee – Qatar Rail, Qatar",
+      "summary":
+      "This application is HRMS application targeted for Qatar Rail employees, which is an implementation of their SharePoint based portal and ERP System.Developed for Mobile (Android, IOS Platform) and desktop",
+      "summary2":
+      "Configured Kony services  over Kony fabric that collaborates with backend services\nWritten Java pre-processors and post -processors\n.Worked on Android push notification implementation with Kony\nWritten android native code and implemented with Kony as FFI.",
+      "image":
+      "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/145-1458097_qatar-rail-logo-png.png?alt=media&token=97405e91-501c-484e-981a-5f14a344ea43",
+      "text": "HRMS application targeted for Qatar Rail employees",
+      "techUsed":
+      "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android",
+      "storeLink":
+      "https://play.google.com/store/apps/details?id=com.mbt.mbt&hl=en",
+      "color": Colors.red.shade300.withOpacity(0.9),
       "txtColor": Colors.lightGreenAccent.shade700
     },
   ];

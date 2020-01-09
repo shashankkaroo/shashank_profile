@@ -55,7 +55,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "key",
         column: 9,
-        line: 124,
+        line: 157,
         file: null
       });
     },
@@ -65,7 +65,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 125,
+        line: 158,
         file: null
       });
     },
@@ -78,7 +78,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 18,
-        line: 123,
+        line: 156,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -88,7 +88,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 11,
-        line: 123,
+        line: 156,
         file: null
       });
     },
@@ -101,7 +101,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C5 || CT.C5,
         name: null,
         column: 14,
-        line: 122,
+        line: 155,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -111,7 +111,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "builder",
         column: 23,
-        line: 121,
+        line: 154,
         file: null
       });
     },
@@ -124,7 +124,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C8 || CT.C8,
         name: null,
         column: 12,
-        line: 121,
+        line: 154,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -134,7 +134,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 144,
+        line: 177,
         file: null
       });
     },
@@ -144,7 +144,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 145,
+        line: 178,
         file: null
       });
     },
@@ -157,7 +157,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C11 || CT.C11,
         name: null,
         column: 16,
-        line: 143,
+        line: 176,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -167,7 +167,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "alignment",
         column: 9,
-        line: 140,
+        line: 173,
         file: null
       });
     },
@@ -177,7 +177,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 141,
+        line: 174,
         file: null
       });
     },
@@ -187,7 +187,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 9,
-        line: 142,
+        line: 175,
         file: null
       });
     },
@@ -197,7 +197,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 143,
+        line: 176,
         file: null
       });
     },
@@ -210,7 +210,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C15 || CT.C15,
         name: null,
         column: 12,
-        line: 139,
+        line: 172,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -220,7 +220,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 158,
+        line: 191,
         file: null
       });
     },
@@ -230,7 +230,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 159,
+        line: 192,
         file: null
       });
     },
@@ -243,7 +243,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C21 || CT.C21,
         name: null,
         column: 16,
-        line: 157,
+        line: 190,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -253,7 +253,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "alignment",
         column: 9,
-        line: 154,
+        line: 187,
         file: null
       });
     },
@@ -263,7 +263,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 155,
+        line: 188,
         file: null
       });
     },
@@ -273,7 +273,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 9,
-        line: 156,
+        line: 189,
         file: null
       });
     },
@@ -283,7 +283,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 157,
+        line: 190,
         file: null
       });
     },
@@ -296,7 +296,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C25 || CT.C25,
         name: null,
         column: 12,
-        line: 153,
+        line: 186,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -306,7 +306,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "text",
         column: 11,
-        line: 170,
+        line: 203,
         file: null
       });
     },
@@ -319,7 +319,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C31 || CT.C31,
         name: null,
         column: 9,
-        line: 169,
+        line: 202,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -329,7 +329,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "delay",
         column: 9,
-        line: 168,
+        line: 201,
         file: null
       });
     },
@@ -339,7 +339,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 169,
+        line: 202,
         file: null
       });
     },
@@ -349,7 +349,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "direction",
         column: 9,
-        line: 199,
+        line: 232,
         file: null
       });
     },
@@ -362,7 +362,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C34 || CT.C34,
         name: null,
         column: 12,
-        line: 167,
+        line: 200,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -372,7 +372,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 37,
-        line: 229,
+        line: 262,
         file: null
       });
     },
@@ -385,7 +385,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C39 || CT.C39,
         name: null,
         column: 35,
-        line: 228,
+        line: 261,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -395,7 +395,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 47,
-        line: 242,
+        line: 275,
         file: null
       });
     },
@@ -405,7 +405,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 47,
-        line: 244,
+        line: 277,
         file: null
       });
     },
@@ -418,7 +418,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C42 || CT.C42,
         name: null,
         column: 45,
-        line: 241,
+        line: 274,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -428,7 +428,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "mainAxisAlignment",
         column: 37,
-        line: 235,
+        line: 268,
         file: null
       });
     },
@@ -438,7 +438,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 37,
-        line: 239,
+        line: 272,
         file: null
       });
     },
@@ -451,7 +451,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C46 || CT.C46,
         name: null,
         column: 35,
-        line: 234,
+        line: 267,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -461,7 +461,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 29,
-        line: 226,
+        line: 259,
         file: null
       });
     },
@@ -474,7 +474,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C50 || CT.C50,
         name: null,
         column: 32,
-        line: 225,
+        line: 258,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -484,7 +484,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "alignment",
         column: 25,
-        line: 218,
+        line: 251,
         file: null
       });
     },
@@ -494,7 +494,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 25,
-        line: 219,
+        line: 252,
         file: null
       });
     },
@@ -504,7 +504,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "height",
         column: 25,
-        line: 220,
+        line: 253,
         file: null
       });
     },
@@ -514,7 +514,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 25,
-        line: 224,
+        line: 257,
         file: null
       });
     },
@@ -524,7 +524,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 25,
-        line: 225,
+        line: 258,
         file: null
       });
     },
@@ -537,7 +537,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C53 || CT.C53,
         name: null,
         column: 28,
-        line: 217,
+        line: 250,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -547,7 +547,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "elevation",
         column: 21,
-        line: 215,
+        line: 248,
         file: null
       });
     },
@@ -557,7 +557,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "color",
         column: 21,
-        line: 216,
+        line: 249,
         file: null
       });
     },
@@ -567,7 +567,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 21,
-        line: 217,
+        line: 250,
         file: null
       });
     },
@@ -580,7 +580,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C60 || CT.C60,
         name: null,
         column: 26,
-        line: 214,
+        line: 247,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -590,7 +590,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "runSpacing",
         column: 17,
-        line: 212,
+        line: 245,
         file: null
       });
     },
@@ -600,7 +600,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 17,
-        line: 213,
+        line: 246,
         file: null
       });
     },
@@ -613,7 +613,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C65 || CT.C65,
         name: null,
         column: 20,
-        line: 211,
+        line: 244,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -623,7 +623,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "constraints",
         column: 13,
-        line: 207,
+        line: 240,
         file: null
       });
     },
@@ -633,7 +633,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 13,
-        line: 211,
+        line: 244,
         file: null
       });
     },
@@ -646,7 +646,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C69 || CT.C69,
         name: null,
         column: 16,
-        line: 206,
+        line: 239,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -656,7 +656,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "alignment",
         column: 9,
-        line: 204,
+        line: 237,
         file: null
       });
     },
@@ -666,7 +666,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 205,
+        line: 238,
         file: null
       });
     },
@@ -676,7 +676,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 206,
+        line: 239,
         file: null
       });
     },
@@ -689,7 +689,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C73 || CT.C73,
         name: null,
         column: 12,
-        line: 203,
+        line: 236,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -699,7 +699,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "height",
         column: 17,
-        line: 272,
+        line: 305,
         file: null
       });
     },
@@ -709,7 +709,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 17,
-        line: 275,
+        line: 308,
         file: null
       });
     },
@@ -719,7 +719,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "color",
         column: 17,
-        line: 278,
+        line: 311,
         file: null
       });
     },
@@ -732,7 +732,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C78 || CT.C78,
         name: null,
         column: 13,
-        line: 271,
+        line: 304,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -742,7 +742,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "src",
         column: 39,
-        line: 288,
+        line: 321,
         file: null
       });
     },
@@ -755,7 +755,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C83 || CT.C83,
         name: null,
         column: 30,
-        line: 288,
+        line: 321,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -765,7 +765,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "left",
         column: 17,
-        line: 280,
+        line: 313,
         file: null
       });
     },
@@ -775,7 +775,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "top",
         column: 17,
-        line: 281,
+        line: 314,
         file: null
       });
     },
@@ -785,7 +785,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "height",
         column: 17,
-        line: 282,
+        line: 315,
         file: null
       });
     },
@@ -795,7 +795,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 17,
-        line: 285,
+        line: 318,
         file: null
       });
     },
@@ -805,7 +805,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 17,
-        line: 288,
+        line: 321,
         file: null
       });
     },
@@ -818,7 +818,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C86 || CT.C86,
         name: null,
         column: 13,
-        line: 279,
+        line: 312,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -828,7 +828,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 270,
+        line: 303,
         file: null
       });
     },
@@ -841,7 +841,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C93 || CT.C93,
         name: null,
         column: 16,
-        line: 269,
+        line: 302,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -851,7 +851,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "height",
         column: 9,
-        line: 263,
+        line: 296,
         file: null
       });
     },
@@ -861,7 +861,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 9,
-        line: 266,
+        line: 299,
         file: null
       });
     },
@@ -871,7 +871,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 269,
+        line: 302,
         file: null
       });
     },
@@ -884,7 +884,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C96 || CT.C96,
         name: null,
         column: 12,
-        line: 262,
+        line: 295,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -894,7 +894,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "data",
         column: 19,
-        line: 306,
+        line: 339,
         file: null
       });
     },
@@ -904,7 +904,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "textAlign",
         column: 17,
-        line: 307,
+        line: 340,
         file: null
       });
     },
@@ -914,7 +914,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "style",
         column: 17,
-        line: 308,
+        line: 341,
         file: null
       });
     },
@@ -927,7 +927,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C101 || CT.C101,
         name: null,
         column: 13,
-        line: 306,
+        line: 339,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -937,7 +937,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "data",
         column: 28,
-        line: 311,
+        line: 344,
         file: null
       });
     },
@@ -947,7 +947,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "textAlign",
         column: 19,
-        line: 312,
+        line: 345,
         file: null
       });
     },
@@ -957,7 +957,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "style",
         column: 19,
-        line: 313,
+        line: 346,
         file: null
       });
     },
@@ -970,7 +970,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C106 || CT.C106,
         name: null,
         column: 22,
-        line: 311,
+        line: 344,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -980,7 +980,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 15,
-        line: 310,
+        line: 343,
         file: null
       });
     },
@@ -990,7 +990,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 311,
+        line: 344,
         file: null
       });
     },
@@ -1003,7 +1003,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C111 || CT.C111,
         name: null,
         column: 13,
-        line: 309,
+        line: 342,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1013,7 +1013,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "data",
         column: 28,
-        line: 317,
+        line: 350,
         file: null
       });
     },
@@ -1023,7 +1023,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "textAlign",
         column: 19,
-        line: 318,
+        line: 351,
         file: null
       });
     },
@@ -1033,7 +1033,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "style",
         column: 19,
-        line: 319,
+        line: 352,
         file: null
       });
     },
@@ -1046,7 +1046,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C115 || CT.C115,
         name: null,
         column: 22,
-        line: 317,
+        line: 350,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1056,7 +1056,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 15,
-        line: 316,
+        line: 349,
         file: null
       });
     },
@@ -1066,7 +1066,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 317,
+        line: 350,
         file: null
       });
     },
@@ -1079,7 +1079,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C120 || CT.C120,
         name: null,
         column: 13,
-        line: 315,
+        line: 348,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1089,7 +1089,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "data",
         column: 28,
-        line: 325,
+        line: 358,
         file: null
       });
     },
@@ -1099,7 +1099,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "textAlign",
         column: 19,
-        line: 326,
+        line: 359,
         file: null
       });
     },
@@ -1109,7 +1109,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "style",
         column: 19,
-        line: 327,
+        line: 360,
         file: null
       });
     },
@@ -1122,7 +1122,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C124 || CT.C124,
         name: null,
         column: 22,
-        line: 325,
+        line: 358,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1132,7 +1132,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 15,
-        line: 324,
+        line: 357,
         file: null
       });
     },
@@ -1142,7 +1142,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 325,
+        line: 358,
         file: null
       });
     },
@@ -1155,7 +1155,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C129 || CT.C129,
         name: null,
         column: 13,
-        line: 323,
+        line: 356,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1165,7 +1165,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "mainAxisAlignment",
         column: 11,
-        line: 303,
+        line: 336,
         file: null
       });
     },
@@ -1175,7 +1175,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 304,
+        line: 337,
         file: null
       });
     },
@@ -1185,7 +1185,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 305,
+        line: 338,
         file: null
       });
     },
@@ -1198,7 +1198,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C133 || CT.C133,
         name: null,
         column: 16,
-        line: 302,
+        line: 335,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1208,7 +1208,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 7,
-        line: 295,
+        line: 328,
         file: null
       });
     },
@@ -1218,7 +1218,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "height",
         column: 9,
-        line: 296,
+        line: 329,
         file: null
       });
     },
@@ -1228,7 +1228,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 9,
-        line: 299,
+        line: 332,
         file: null
       });
     },
@@ -1238,7 +1238,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 302,
+        line: 335,
         file: null
       });
     },
@@ -1251,7 +1251,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C138 || CT.C138,
         name: null,
         column: 12,
-        line: 294,
+        line: 327,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1261,7 +1261,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "padding",
         column: 15,
-        line: 340,
+        line: 373,
         file: null
       });
     },
@@ -1271,7 +1271,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 341,
+        line: 374,
         file: null
       });
     },
@@ -1284,7 +1284,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C144 || CT.C144,
         name: null,
         column: 25,
-        line: 339,
+        line: 372,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1294,7 +1294,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 18,
-        line: 352,
+        line: 385,
         file: null
       });
     },
@@ -1307,7 +1307,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C148 || CT.C148,
         name: null,
         column: 13,
-        line: 352,
+        line: 385,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1317,7 +1317,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 349,
+        line: 382,
         file: null
       });
     },
@@ -1327,7 +1327,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 350,
+        line: 383,
         file: null
       });
     },
@@ -1340,7 +1340,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C151 || CT.C151,
         name: null,
         column: 16,
-        line: 348,
+        line: 381,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1350,7 +1350,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 346,
+        line: 379,
         file: null
       });
     },
@@ -1360,7 +1360,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "width",
         column: 9,
-        line: 347,
+        line: 380,
         file: null
       });
     },
@@ -1370,7 +1370,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 348,
+        line: 381,
         file: null
       });
     },
@@ -1383,7 +1383,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C155 || CT.C155,
         name: null,
         column: 12,
-        line: 345,
+        line: 378,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1393,7 +1393,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "data",
         column: 21,
-        line: 360,
+        line: 393,
         file: null
       });
     },
@@ -1403,7 +1403,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "style",
         column: 27,
-        line: 360,
+        line: 393,
         file: null
       });
     },
@@ -1416,7 +1416,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C160 || CT.C160,
         name: null,
         column: 16,
-        line: 360,
+        line: 393,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1426,7 +1426,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 359,
+        line: 392,
         file: null
       });
     },
@@ -1436,7 +1436,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 360,
+        line: 393,
         file: null
       });
     },
@@ -1449,7 +1449,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C164 || CT.C164,
         name: null,
         column: 12,
-        line: 358,
+        line: 391,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1459,7 +1459,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "data",
         column: 9,
-        line: 366,
+        line: 399,
         file: null
       });
     },
@@ -1469,7 +1469,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "style",
         column: 9,
-        line: 367,
+        line: 400,
         file: null
       });
     },
@@ -1482,7 +1482,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C168 || CT.C168,
         name: null,
         column: 14,
-        line: 365,
+        line: 398,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     },
@@ -1492,7 +1492,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: null,
         name: "label",
         column: 7,
-        line: 365,
+        line: 398,
         file: null
       });
     },
@@ -1505,7 +1505,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         parameterLocations: C172 || CT.C172,
         name: null,
         column: 12,
-        line: 364,
+        line: 397,
         file: "org-dartlang-app:///packages/kakro/ui/Projects_page.dart"
       });
     }
@@ -1781,7 +1781,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
     }
   };
   (Projects_page.ProjectsPageState.new = function() {
-    this[projectList] = JSArrayOfMapOfString$Object().of([new (IdentityMapOfString$Object()).from(["title", "Artbandhu - Career Discovery Platform", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/artbandhu.png?alt=media&token=3d5c3831-6f00-4522-be71-3db8f4ced9a1", "text", "Social Art Feed Application for local artist and community", "summary", "Artbandhu app helps millions of creative professionals/artist succeed with upskilling and on-demand creative jobs & monetization opportunities, around the world", "summary2", "Worked on front end for the app with Dart and Flutter \nSocial Logins using firebase authentication \nUsed Firebase storage for file uploads \nEnsuring project quality and timely resolution of issues.", "techUsed", "Flutter, Dart, Firebase Authentication, Firebase Storage, Native Android, iOS ", "storeLink", "https://play.google.com/store/apps/details?id=com.artbandhu.Artbandhu", "color", colors.Colors.amber.shade50.withOpacity(0.9), "txtColor", colors.Colors.orange]), new (IdentityMapOfString$Object()).from(["title", "FitApp - Home Workouts Guide", "text", "Home Workout application with Tips for weight loss", "summary2", "Designed and developed front end for the app with Native Android, Java \nUsed Firebase Storage and Firebase Database for application data\nFirebase Cloud messaging for Implementing Push Notifications\nWorked end to end from designing to app upload process", "summary", "Home Workouts and Fitness Application helps to improve fitness and health by providing programs specific to body parts and exercise routines of indivisuals", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/fit.png?alt=media&token=096b9613-65ae-4e7b-aa9c-b41594e1cd3f", "techUsed", " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage, Firebase Database", "storeLink", "https://play.google.com/store/apps/details?id=com.kakroo.shashank.fitapp", "color", colors.Colors.lime.shade100.withOpacity(0.9), "txtColor", colors.Colors.green.shade700]), new (IdentityMapOfString$Object()).from(["title", "Gulf VPN", "text", "Open VPN Client for Android", "summary2", "Designed and developed front end for the app with Native Android\nImplemented Open VPN SDK for android\nWorked on google in app purchase", "summary", "Gulf VPN with help of Open VPN SDK provides users access to more than 100 remote servers for securing their connections", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/vpn.png?alt=media&token=444b6163-a138-4653-aae0-15ed03a4ff08", "techUsed", " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage, Open VPN", "storeLink", "https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.gulfVPN", "color", colors.Colors.lightBlueAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.blue.shade700]), new (IdentityMapOfString$Object()).from(["title", "My Android", "summary", "My Android application helps you with all details related to your android device such as RAM, Memory Utilized, Internet Compumption etc", "summary2", "Designed and developed front end for the app with Native Android\nEnsuring project quality and timely resolution of issues.", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/myandroid.png?alt=media&token=b1ce4864-4d5c-45e9-81de-14ee5c3c6ab8", "text", "Android Utility Application", "techUsed", " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage", "storeLink", "https://play.google.com/store/apps/details?id=com.innovationm.myandroid", "color", colors.Colors.yellowAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.deepOrangeAccent.shade200]), new (IdentityMapOfString$Object()).from(["title", "Ooredoo, Qatar", "text", "HRMS Mobile Application", "summary2", "Configured Kony services  over Kony fabric that collaborates with backend services\nWritten Java pre-processors and post -processors\n.Worked on Android push notification implementation with Kony\nWritten android native code and implemented with Kony as FFI.", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/ooredoo.png?alt=media&token=d0fb7c7b-9226-4135-a035-0abb3a03af56", "summary", "This application is HRMS application targeted for Ooredoo Qatar employees which is an implementation of their oracle based portal.", "techUsed", "Kony Vizualizer 8.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging", "storeLink", "https://play.google.com/store/apps/details?id=qa.ooredoo.android", "color", colors.Colors.deepOrangeAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.deepOrangeAccent.shade700]), new (IdentityMapOfString$Object()).from(["title", "Ministry of Economy and Commerce B2C– Qatar", "summary", "This application is a B2C app for businesses and citizens of Qatar. This app provides a platform for businesses to register and carry all taxation related transactions. For citizens this app acts as a medium of information to understand their quota of food grains allotted along with and knowing the daily rates", "summary2", "Worked on Kony JSON services  over Kony fabric\nWritten Java pre-processors and post -processors\nWorked on Integration of ArGis Native Maps with Kony Application\nIntegration of JavaScript based Maps SDK with Kony Application\nWritten android native code and implemented with Kony as FFI.", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/qatar.png?alt=media&token=35f7d8b1-ebfc-4f90-90ac-3267cb1bda59", "text", "B2C App for Businesses and Citizens of Qatar", "techUsed", "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging, ArGis Native Maps", "storeLink", "https://play.google.com/store/apps/details?id=com.mbt.mbt&hl=en", "color", colors.Colors.lightGreenAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.lightGreenAccent.shade700])]);
+    this[projectList] = JSArrayOfMapOfString$Object().of([new (IdentityMapOfString$Object()).from(["title", "Artbandhu - Career Discovery Platform", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/artbandhu.png?alt=media&token=3d5c3831-6f00-4522-be71-3db8f4ced9a1", "text", "Social Art Feed Application for local artist and community", "summary", "Artbandhu app helps millions of creative professionals/artist succeed with upskilling and on-demand creative jobs & monetization opportunities, around the world", "summary2", "Worked on front end for the app with Dart and Flutter \nSocial Logins using firebase authentication \nUsed Firebase storage for file uploads \nEnsuring project quality and timely resolution of issues.", "techUsed", "Flutter, Dart, Firebase Authentication, Firebase Storage, Native Android, iOS ", "storeLink", "https://play.google.com/store/apps/details?id=com.artbandhu.Artbandhu", "color", colors.Colors.amber.shade50.withOpacity(0.9), "txtColor", colors.Colors.orange]), new (IdentityMapOfString$Object()).from(["title", "FitApp - Home Workouts Guide", "text", "Home Workout application with Tips for weight loss", "summary2", "Designed and developed front end for the app with Native Android, Java \nUsed Firebase Storage and Firebase Database for application data\nFirebase Cloud messaging for Implementing Push Notifications\nWorked end to end from designing to app upload process", "summary", "Home Workouts and Fitness Application helps to improve fitness and health by providing programs specific to body parts and exercise routines of indivisuals", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/fit.png?alt=media&token=096b9613-65ae-4e7b-aa9c-b41594e1cd3f", "techUsed", " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage, Firebase Database", "storeLink", "https://play.google.com/store/apps/details?id=com.kakroo.shashank.fitapp", "color", colors.Colors.lime.shade100.withOpacity(0.9), "txtColor", colors.Colors.green.shade700]), new (IdentityMapOfString$Object()).from(["title", "Gulf VPN", "text", "Open VPN Client for Android", "summary2", "Designed and developed front end for the app with Native Android\nImplemented Open VPN SDK for android\nWorked on google in app purchase", "summary", "Gulf VPN with help of Open VPN SDK provides users access to more than 100 remote servers for securing their connections", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/vpn.png?alt=media&token=444b6163-a138-4653-aae0-15ed03a4ff08", "techUsed", " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage, Open VPN", "storeLink", "https://play.google.com/store/apps/details?id=free.vpn.unblock.proxy.gulfVPN", "color", colors.Colors.lightBlueAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.blue.shade700]), new (IdentityMapOfString$Object()).from(["title", "My Android", "summary", "My Android application helps you with all details related to your android device such as RAM, Memory Utilized, Internet Compumption etc", "summary2", "Designed and developed front end for the app with Native Android\nEnsuring project quality and timely resolution of issues.", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/myandroid.png?alt=media&token=b1ce4864-4d5c-45e9-81de-14ee5c3c6ab8", "text", "Android Utility Application", "techUsed", " Native Android, Java, Firebase, Firebase Cloud Messaging, Firebase Storage", "storeLink", "https://play.google.com/store/apps/details?id=com.innovationm.myandroid", "color", colors.Colors.yellowAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.deepOrangeAccent.shade200]), new (IdentityMapOfString$Object()).from(["title", "Abu Dhabi Commercial Bank - PROCASH", "text", "ADCB Coorporate Banking Applicaton", "summary", "This application is the ADCB's Coorporate Banking Applicaton, enabling coorporates to do trasaction Initiations, request approvals and give account insights ", "summary2", "Configured Kony services  over Kony fabric that collaborates with backend services\nWorked on Biometrics integration on mobile\nWorked on transaction initiation module from front end\nWritten android native code and implemented with Kony as FFI", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/procash.png?alt=media&token=a63567af-ab05-40c2-a925-58eac5527a9c", "techUsed", "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android", "storeLink", "https://play.google.com/store/apps/details?id=com.adcbapp.ProCashLite&hl=en", "color", colors.Colors.lightGreenAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.lightGreenAccent.shade700]), new (IdentityMapOfString$Object()).from(["title", "Ooredoo, Qatar", "text", "HRMS Mobile Application", "summary2", "Configured Kony services  over Kony fabric that collaborates with backend services\nWritten Java pre-processors and post -processors\n.Worked on Android push notification implementation with Kony\nWritten android native code and implemented with Kony as FFI.", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/ooredoo.png?alt=media&token=d0fb7c7b-9226-4135-a035-0abb3a03af56", "summary", "This application is HRMS application targeted for Ooredoo Qatar employees which is an implementation of their oracle based portal.", "techUsed", "Kony Vizualizer 8.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging", "storeLink", "https://play.google.com/store/apps/details?id=qa.ooredoo.android", "color", colors.Colors.deepOrangeAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.deepOrangeAccent.shade700]), new (IdentityMapOfString$Object()).from(["title", "Ministry of Economy and Commerce B2C– Qatar", "summary", "This application is a B2C app for businesses and citizens of Qatar. This app provides a platform for businesses to register and carry all taxation related transactions. For citizens this app acts as a medium of information to understand their quota of food grains allotted along with and knowing the daily rates", "summary2", "Worked on Kony JSON services  over Kony fabric\nWritten Java pre-processors and post -processors\nWorked on Integration of ArGis Native Maps with Kony Application\nIntegration of JavaScript based Maps SDK with Kony Application.", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/qatar.png?alt=media&token=35f7d8b1-ebfc-4f90-90ac-3267cb1bda59", "text", "B2C App for Businesses and Citizens of Qatar", "techUsed", "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android, Firebase Cloud Messaging, ArGis Native Maps", "storeLink", "https://play.google.com/store/apps/details?id=com.mbt.mbt&hl=en", "color", colors.Colors.purpleAccent.shade100.withOpacity(0.9), "txtColor", colors.Colors.purpleAccent.shade700]), new (IdentityMapOfString$Object()).from(["title", "QR Employee – Qatar Rail, Qatar", "summary", "This application is HRMS application targeted for Qatar Rail employees, which is an implementation of their SharePoint based portal and ERP System.Developed for Mobile (Android, IOS Platform) and desktop", "summary2", "Configured Kony services  over Kony fabric that collaborates with backend services\nWritten Java pre-processors and post -processors\n.Worked on Android push notification implementation with Kony\nWritten android native code and implemented with Kony as FFI.", "image", "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/145-1458097_qatar-rail-logo-png.png?alt=media&token=97405e91-501c-484e-981a-5f14a344ea43", "text", "HRMS application targeted for Qatar Rail employees", "techUsed", "Kony Vizualizer 7.x, Kony Mobile Fabric & Middleware, Native Android", "storeLink", "https://play.google.com/store/apps/details?id=com.mbt.mbt&hl=en", "color", colors.Colors.red.shade300.withOpacity(0.9), "txtColor", colors.Colors.lightGreenAccent.shade700])]);
     Projects_page.ProjectsPageState.__proto__.new.call(this);
     ;
   }).prototype = Projects_page.ProjectsPageState.prototype;
@@ -1810,7 +1810,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   dart.trackLibraries("packages/kakro/ui/Projects_page", {
     "package:kakro/ui/Projects_page.dart": Projects_page
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["Projects_page.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"Projects_page.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["Projects_page.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"Projects_page.ddc.js"}');
   // Exports:
   return {
     ui__Projects_page: Projects_page

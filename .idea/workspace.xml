@@ -2,111 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="260512b9-ee00-4e7d-bce2-557d131bd3b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/62bbed2c3b25c6189726a55523926ca3/asset_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/62bbed2c3b25c6189726a55523926ca3/asset_graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/cupertino.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/cupertino.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/cupertino.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/material.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/material.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/material.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/cupertino/action_sheet.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/cupertino/action_sheet.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/cupertino/action_sheet.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/rendering/animated_size.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/rendering/animated_size.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/widgets/actions.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/widgets/actions.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/src/widgets/actions.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/widgets.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/widgets.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/flutter/lib/widgets.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/.flutter_web.meta_module.clean" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/.flutter_web.meta_module.clean" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/.flutter_web.meta_module.raw" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/.flutter_web.meta_module.raw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/enums/device_screen_size.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/enums/device_screen_size.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/enums/device_screen_size.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main_web_entrypoint.dart.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main_web_entrypoint.dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main_web_entrypoint.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main_web_entrypoint.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/main_web_entrypoint.digests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/About_page.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/About_page.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/About_page.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/BaseWidget.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/BaseWidget.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/BaseWidget.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Contact_page.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Contact_page.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Contact_page.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/FadeIn.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/FadeIn.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/FadeIn.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Home_view.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Home_view.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Home_view.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Home_view.flutter_web.module" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Home_view.flutter_web.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Home_view.module.library" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Home_view.module.library" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Projects_page.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Projects_page.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Projects_page.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Projects_page.flutter_web.module" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Projects_page.flutter_web.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Projects_page.module.library" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/Projects_page.module.library" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/sizing_info.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/sizing_info.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/sizing_info.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test_web_entrypoint.dart.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test_web_entrypoint.dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test_web_entrypoint.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test_web_entrypoint.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/ui/test_web_entrypoint.digests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/utils/ui_utils.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/utils/ui_utils.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/kakro/lib/utils/ui_utils.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/plugin_platform_interface/lib/.flutter_web.meta_module.clean" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/plugin_platform_interface/lib/.flutter_web.meta_module.raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/plugin_platform_interface/lib/plugin_platform_interface.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/plugin_platform_interface/lib/plugin_platform_interface.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/plugin_platform_interface/lib/plugin_platform_interface.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/plugin_platform_interface/lib/plugin_platform_interface.flutter_web.module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/plugin_platform_interface/lib/plugin_platform_interface.module.library" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/simple_animations/lib/simple_animations/controlled_animation.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/simple_animations/lib/simple_animations/controlled_animation.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/simple_animations/lib/simple_animations/controlled_animation.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/simple_animations/lib/simple_animations/multi_track_tween.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/simple_animations/lib/simple_animations/multi_track_tween.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/simple_animations/lib/simple_animations/multi_track_tween.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher/lib/.flutter_web.meta_module.clean" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher/lib/.flutter_web.meta_module.raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher/lib/url_launcher.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher/lib/url_launcher.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher/lib/url_launcher.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher/lib/url_launcher.flutter_web.module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher/lib/url_launcher.module.library" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/.flutter_web.meta_module.clean" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/.flutter_web.meta_module.raw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/method_channel_url_launcher.ddc.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/method_channel_url_launcher.ddc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/method_channel_url_launcher.ddc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/method_channel_url_launcher.flutter_web.module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/method_channel_url_launcher.module.library" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/flutter_web/url_launcher_platform_interface/lib/url_launcher_platform_interface.module.library" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/Home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/Home_view.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/Projects_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/Projects_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,14 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui/Home_view.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -131,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui/About_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="4590">
               <caret line="312" column="39" selection-start-line="312" selection-start-column="39" selection-end-line="312" selection-end-column="39" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -140,18 +34,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ui/Projects_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="275">
+              <caret line="144" column="18" lean-forward="true" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
               <folding>
-                <element signature="e#514#1543#1" />
-                <element signature="e#1549#2632#1" />
-                <element signature="e#2638#3528#1" />
-                <element signature="e#3534#4429#1" />
-                <element signature="e#4435#5474#1" />
-                <element signature="e#5480#6797#1" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/widgets/text.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="392">
               <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
             </state>
           </provider>
@@ -178,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/widgets/basic.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="48870">
               <caret line="3320" column="13" selection-start-line="3320" selection-start-column="13" selection-end-line="3320" selection-end-column="13" />
             </state>
           </provider>
@@ -187,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../flutter/bin/cache/pkg/sky_engine/lib/ui/painting.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="39720">
               <caret line="2650" column="14" selection-start-line="2650" selection-start-column="14" selection-end-line="2650" selection-end-column="14" />
             </state>
           </provider>
@@ -196,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/painting/text_style.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="6285">
               <caret line="427" column="55" selection-start-line="427" selection-start-column="55" selection-end-line="427" selection-end-column="55" />
             </state>
           </provider>
@@ -214,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -246,39 +135,24 @@
         <option value="$PROJECT_DIR$/lib/ui/Contact_page.dart" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/firebase.json" />
+        <option value="$PROJECT_DIR$/lib/ui/Home_view.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/ui/Projects_page.dart" />
-        <option value="$PROJECT_DIR$/lib/ui/Home_view.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="707" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="514" />
     <option name="y" value="23" />
-    <option name="width" value="978" />
-    <option name="height" value="961" />
+    <option name="width" value="1166" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="shashank_profile" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="shashank_profile" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,7 +175,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="shashank_profile" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="shashank_profile" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,7 +248,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24908425" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18620269" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -367,10 +256,10 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.5408163" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.5408163" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32988507" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.2887755" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.2887755" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32959184" />
@@ -484,44 +373,16 @@
     <entry file="file://$PROJECT_DIR$/pubspec.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/painting/text_style.dart">
+    <entry file="file://$PROJECT_DIR$/lib/ui/Home_view.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="427" column="55" selection-start-line="427" selection-start-column="55" selection-end-line="427" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../flutter/bin/cache/pkg/sky_engine/lib/ui/painting.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="2650" column="14" selection-start-line="2650" selection-start-column="14" selection-end-line="2650" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/widgets/basic.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="3320" column="13" selection-start-line="3320" selection-start-column="13" selection-end-line="3320" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/widgets/text.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/Contact_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui/About_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="4590">
           <caret line="312" column="39" selection-start-line="312" selection-start-column="39" selection-end-line="312" selection-end-column="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -536,34 +397,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/Projects_page.dart">
+    <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/widgets/basic.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding>
-            <element signature="e#514#1543#1" />
-            <element signature="e#1549#2632#1" />
-            <element signature="e#2638#3528#1" />
-            <element signature="e#3534#4429#1" />
-            <element signature="e#4435#5474#1" />
-            <element signature="e#5480#6797#1" />
-          </folding>
+        <state relative-caret-position="48870">
+          <caret line="3320" column="13" selection-start-line="3320" selection-start-column="13" selection-end-line="3320" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flutter/bin/cache/pkg/sky_engine/lib/ui/painting.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39720">
+          <caret line="2650" column="14" selection-start-line="2650" selection-start-column="14" selection-end-line="2650" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/painting/text_style.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6285">
+          <caret line="427" column="55" selection-start-line="427" selection-start-column="55" selection-end-line="427" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/Contact_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/Home_view.dart">
+    <entry file="file://$PROJECT_DIR$/../../flutter/packages/flutter/lib/src/widgets/text.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="392">
+          <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/Projects_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="144" column="18" lean-forward="true" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
