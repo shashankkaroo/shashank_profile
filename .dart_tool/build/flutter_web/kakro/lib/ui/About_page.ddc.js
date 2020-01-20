@@ -29,6 +29,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
   const colors = packages__flutter__material.src__material__colors;
   const chip = packages__flutter__material.src__material__chip;
   const About_page = Object.create(dart.library);
+  const $toString = dartx.toString;
   const $add = dartx.add;
   const $length = dartx.length;
   const $_get = dartx._get;
@@ -49,7 +50,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "height",
         column: 9,
-        line: 88,
+        line: 90,
         file: null
       });
     },
@@ -59,7 +60,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "key",
         column: 9,
-        line: 89,
+        line: 91,
         file: null
       });
     },
@@ -69,7 +70,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 90,
+        line: 92,
         file: null
       });
     },
@@ -82,7 +83,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 12,
-        line: 87,
+        line: 89,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -92,7 +93,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 23,
-        line: 117,
+        line: 119,
         file: null
       });
     },
@@ -105,7 +106,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C6 || CT.C6,
         name: null,
         column: 21,
-        line: 116,
+        line: 118,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -115,7 +116,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 25,
-        line: 120,
+        line: 122,
         file: null
       });
     },
@@ -125,7 +126,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 25,
-        line: 121,
+        line: 123,
         file: null
       });
     },
@@ -138,7 +139,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C9 || CT.C9,
         name: null,
         column: 21,
-        line: 119,
+        line: 121,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -148,7 +149,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 23,
-        line: 123,
+        line: 125,
         file: null
       });
     },
@@ -158,7 +159,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 23,
-        line: 124,
+        line: 126,
         file: null
       });
     },
@@ -171,7 +172,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C13 || CT.C13,
         name: null,
         column: 21,
-        line: 122,
+        line: 124,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -181,7 +182,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "mainAxisAlignment",
         column: 29,
-        line: 131,
+        line: 133,
         file: null
       });
     },
@@ -191,7 +192,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 29,
-        line: 132,
+        line: 134,
         file: null
       });
     },
@@ -204,7 +205,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C17 || CT.C17,
         name: null,
         column: 34,
-        line: 130,
+        line: 132,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -214,7 +215,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 27,
-        line: 129,
+        line: 131,
         file: null
       });
     },
@@ -224,7 +225,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 27,
-        line: 130,
+        line: 132,
         file: null
       });
     },
@@ -237,7 +238,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C21 || CT.C21,
         name: null,
         column: 25,
-        line: 128,
+        line: 130,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -247,7 +248,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "delay",
         column: 25,
-        line: 127,
+        line: 129,
         file: null
       });
     },
@@ -257,7 +258,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 25,
-        line: 128,
+        line: 130,
         file: null
       });
     },
@@ -267,7 +268,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "direction",
         column: 25,
-        line: 138,
+        line: 140,
         file: null
       });
     },
@@ -280,7 +281,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C25 || CT.C25,
         name: null,
         column: 21,
-        line: 126,
+        line: 128,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -290,7 +291,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 19,
-        line: 114,
+        line: 116,
         file: null
       });
     },
@@ -300,7 +301,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 19,
-        line: 115,
+        line: 117,
         file: null
       });
     },
@@ -313,7 +314,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C30 || CT.C30,
         name: null,
         column: 24,
-        line: 113,
+        line: 115,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -323,7 +324,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "width",
         column: 17,
-        line: 111,
+        line: 113,
         file: null
       });
     },
@@ -333,7 +334,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 17,
-        line: 112,
+        line: 114,
         file: null
       });
     },
@@ -343,7 +344,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 17,
-        line: 113,
+        line: 115,
         file: null
       });
     },
@@ -356,7 +357,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C34 || CT.C34,
         name: null,
         column: 13,
-        line: 110,
+        line: 112,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -366,7 +367,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "mainAxisAlignment",
         column: 11,
-        line: 106,
+        line: 108,
         file: null
       });
     },
@@ -376,7 +377,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 107,
+        line: 109,
         file: null
       });
     },
@@ -386,7 +387,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 108,
+        line: 110,
         file: null
       });
     },
@@ -399,7 +400,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C39 || CT.C39,
         name: null,
         column: 16,
-        line: 105,
+        line: 107,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -409,7 +410,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 104,
+        line: 106,
         file: null
       });
     },
@@ -419,7 +420,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 105,
+        line: 107,
         file: null
       });
     },
@@ -432,7 +433,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C44 || CT.C44,
         name: null,
         column: 12,
-        line: 103,
+        line: 105,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -442,7 +443,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 23,
-        line: 159,
+        line: 161,
         file: null
       });
     },
@@ -455,7 +456,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C48 || CT.C48,
         name: null,
         column: 21,
-        line: 158,
+        line: 160,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -465,7 +466,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 25,
-        line: 162,
+        line: 164,
         file: null
       });
     },
@@ -475,7 +476,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 25,
-        line: 163,
+        line: 165,
         file: null
       });
     },
@@ -488,7 +489,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C51 || CT.C51,
         name: null,
         column: 21,
-        line: 161,
+        line: 163,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -498,7 +499,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 23,
-        line: 165,
+        line: 167,
         file: null
       });
     },
@@ -508,7 +509,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 23,
-        line: 166,
+        line: 168,
         file: null
       });
     },
@@ -521,7 +522,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C55 || CT.C55,
         name: null,
         column: 21,
-        line: 164,
+        line: 166,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -531,7 +532,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "mainAxisAlignment",
         column: 29,
-        line: 173,
+        line: 175,
         file: null
       });
     },
@@ -541,7 +542,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 29,
-        line: 174,
+        line: 176,
         file: null
       });
     },
@@ -554,7 +555,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C59 || CT.C59,
         name: null,
         column: 34,
-        line: 172,
+        line: 174,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -564,7 +565,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 27,
-        line: 171,
+        line: 173,
         file: null
       });
     },
@@ -574,7 +575,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 27,
-        line: 172,
+        line: 174,
         file: null
       });
     },
@@ -587,7 +588,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C63 || CT.C63,
         name: null,
         column: 25,
-        line: 170,
+        line: 172,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -597,7 +598,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "delay",
         column: 25,
-        line: 169,
+        line: 171,
         file: null
       });
     },
@@ -607,7 +608,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 25,
-        line: 170,
+        line: 172,
         file: null
       });
     },
@@ -617,7 +618,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "direction",
         column: 25,
-        line: 180,
+        line: 182,
         file: null
       });
     },
@@ -630,7 +631,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C67 || CT.C67,
         name: null,
         column: 21,
-        line: 168,
+        line: 170,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -640,7 +641,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 19,
-        line: 156,
+        line: 158,
         file: null
       });
     },
@@ -650,7 +651,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 19,
-        line: 157,
+        line: 159,
         file: null
       });
     },
@@ -663,7 +664,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C72 || CT.C72,
         name: null,
         column: 24,
-        line: 155,
+        line: 157,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -673,7 +674,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "width",
         column: 17,
-        line: 154,
+        line: 156,
         file: null
       });
     },
@@ -683,7 +684,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 17,
-        line: 155,
+        line: 157,
         file: null
       });
     },
@@ -696,7 +697,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C76 || CT.C76,
         name: null,
         column: 13,
-        line: 153,
+        line: 155,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -706,7 +707,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "mainAxisAlignment",
         column: 11,
-        line: 150,
+        line: 152,
         file: null
       });
     },
@@ -716,7 +717,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 151,
+        line: 153,
         file: null
       });
     },
@@ -726,7 +727,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 152,
+        line: 154,
         file: null
       });
     },
@@ -739,7 +740,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C80 || CT.C80,
         name: null,
         column: 16,
-        line: 149,
+        line: 151,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -749,7 +750,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 148,
+        line: 150,
         file: null
       });
     },
@@ -759,7 +760,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 149,
+        line: 151,
         file: null
       });
     },
@@ -772,7 +773,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C85 || CT.C85,
         name: null,
         column: 13,
-        line: 147,
+        line: 149,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -782,7 +783,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "radius",
         column: 21,
-        line: 198,
+        line: 200,
         file: null
       });
     },
@@ -792,7 +793,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "backgroundColor",
         column: 21,
-        line: 199,
+        line: 201,
         file: null
       });
     },
@@ -802,7 +803,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "backgroundImage",
         column: 21,
-        line: 200,
+        line: 202,
         file: null
       });
     },
@@ -815,7 +816,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C89 || CT.C89,
         name: null,
         column: 26,
-        line: 197,
+        line: 199,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -825,7 +826,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "turns",
         column: 19,
-        line: 196,
+        line: 198,
         file: null
       });
     },
@@ -835,7 +836,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 19,
-        line: 197,
+        line: 199,
         file: null
       });
     },
@@ -848,7 +849,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C94 || CT.C94,
         name: null,
         column: 15,
-        line: 195,
+        line: 197,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -858,7 +859,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "src",
         column: 21,
-        line: 206,
+        line: 208,
         file: null
       });
     },
@@ -868,7 +869,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "width",
         column: 21,
-        line: 207,
+        line: 209,
         file: null
       });
     },
@@ -878,7 +879,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "height",
         column: 21,
-        line: 208,
+        line: 210,
         file: null
       });
     },
@@ -891,7 +892,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C98 || CT.C98,
         name: null,
         column: 32,
-        line: 205,
+        line: 207,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -901,7 +902,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 19,
-        line: 204,
+        line: 206,
         file: null
       });
     },
@@ -911,7 +912,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 19,
-        line: 205,
+        line: 207,
         file: null
       });
     },
@@ -924,7 +925,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C103 || CT.C103,
         name: null,
         column: 15,
-        line: 203,
+        line: 205,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -934,7 +935,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 13,
-        line: 194,
+        line: 196,
         file: null
       });
     },
@@ -947,7 +948,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C107 || CT.C107,
         name: null,
         column: 18,
-        line: 193,
+        line: 195,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -957,7 +958,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 11,
-        line: 193,
+        line: 195,
         file: null
       });
     },
@@ -970,7 +971,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C110 || CT.C110,
         name: null,
         column: 9,
-        line: 192,
+        line: 194,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -980,7 +981,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "delay",
         column: 9,
-        line: 191,
+        line: 193,
         file: null
       });
     },
@@ -990,7 +991,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 192,
+        line: 194,
         file: null
       });
     },
@@ -1000,7 +1001,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "direction",
         column: 9,
-        line: 213,
+        line: 215,
         file: null
       });
     },
@@ -1013,7 +1014,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C113 || CT.C113,
         name: null,
         column: 12,
-        line: 190,
+        line: 192,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1023,7 +1024,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "text",
         column: 11,
-        line: 220,
+        line: 222,
         file: null
       });
     },
@@ -1036,7 +1037,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C118 || CT.C118,
         name: null,
         column: 9,
-        line: 219,
+        line: 221,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1046,7 +1047,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "delay",
         column: 9,
-        line: 218,
+        line: 220,
         file: null
       });
     },
@@ -1056,7 +1057,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 219,
+        line: 221,
         file: null
       });
     },
@@ -1066,7 +1067,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "direction",
         column: 9,
-        line: 249,
+        line: 251,
         file: null
       });
     },
@@ -1079,7 +1080,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C121 || CT.C121,
         name: null,
         column: 12,
-        line: 217,
+        line: 219,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1089,7 +1090,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "data",
         column: 13,
-        line: 256,
+        line: 258,
         file: null
       });
     },
@@ -1099,7 +1100,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "textAlign",
         column: 13,
-        line: 257,
+        line: 259,
         file: null
       });
     },
@@ -1109,7 +1110,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 13,
-        line: 260,
+        line: 262,
         file: null
       });
     },
@@ -1122,7 +1123,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C126 || CT.C126,
         name: null,
         column: 9,
-        line: 255,
+        line: 257,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1132,7 +1133,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "delay",
         column: 9,
-        line: 254,
+        line: 256,
         file: null
       });
     },
@@ -1142,7 +1143,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 255,
+        line: 257,
         file: null
       });
     },
@@ -1152,7 +1153,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "direction",
         column: 9,
-        line: 261,
+        line: 263,
         file: null
       });
     },
@@ -1165,7 +1166,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C131 || CT.C131,
         name: null,
         column: 12,
-        line: 253,
+        line: 255,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1174,8 +1175,8 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
-        column: 13,
-        line: 268,
+        column: 25,
+        line: 270,
         file: null
       });
     },
@@ -1185,7 +1186,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "textAlign",
         column: 13,
-        line: 269,
+        line: 271,
         file: null
       });
     },
@@ -1195,7 +1196,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 13,
-        line: 272,
+        line: 274,
         file: null
       });
     },
@@ -1208,7 +1209,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C136 || CT.C136,
         name: null,
         column: 9,
-        line: 267,
+        line: 269,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1218,7 +1219,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "delay",
         column: 9,
-        line: 266,
+        line: 268,
         file: null
       });
     },
@@ -1228,7 +1229,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 267,
+        line: 269,
         file: null
       });
     },
@@ -1238,7 +1239,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "direction",
         column: 9,
-        line: 274,
+        line: 276,
         file: null
       });
     },
@@ -1251,7 +1252,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C141 || CT.C141,
         name: null,
         column: 12,
-        line: 265,
+        line: 267,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1261,7 +1262,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 283,
+        line: 285,
         file: null
       });
     },
@@ -1271,7 +1272,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 284,
+        line: 286,
         file: null
       });
     },
@@ -1284,7 +1285,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C146 || CT.C146,
         name: null,
         column: 14,
-        line: 282,
+        line: 284,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1294,7 +1295,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "width",
         column: 7,
-        line: 279,
+        line: 281,
         file: null
       });
     },
@@ -1304,7 +1305,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 7,
-        line: 282,
+        line: 284,
         file: null
       });
     },
@@ -1317,7 +1318,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C150 || CT.C150,
         name: null,
         column: 12,
-        line: 278,
+        line: 280,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1327,7 +1328,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "data",
         column: 14,
-        line: 291,
+        line: 293,
         file: null
       });
     },
@@ -1337,7 +1338,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 28,
-        line: 291,
+        line: 293,
         file: null
       });
     },
@@ -1350,7 +1351,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C154 || CT.C154,
         name: null,
         column: 9,
-        line: 291,
+        line: 293,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1360,7 +1361,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "padding",
         column: 26,
-        line: 292,
+        line: 294,
         file: null
       });
     },
@@ -1373,7 +1374,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C158 || CT.C158,
         name: null,
         column: 18,
-        line: 292,
+        line: 294,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1383,7 +1384,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "data",
         column: 40,
-        line: 296,
+        line: 298,
         file: null
       });
     },
@@ -1393,7 +1394,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 11,
-        line: 297,
+        line: 299,
         file: null
       });
     },
@@ -1406,7 +1407,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C161 || CT.C161,
         name: null,
         column: 22,
-        line: 296,
+        line: 298,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1416,7 +1417,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "data",
         column: 42,
-        line: 298,
+        line: 300,
         file: null
       });
     },
@@ -1426,7 +1427,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 11,
-        line: 299,
+        line: 301,
         file: null
       });
     },
@@ -1439,7 +1440,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C165 || CT.C165,
         name: null,
         column: 24,
-        line: 298,
+        line: 300,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1449,7 +1450,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "data",
         column: 39,
-        line: 300,
+        line: 302,
         file: null
       });
     },
@@ -1459,7 +1460,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 11,
-        line: 301,
+        line: 303,
         file: null
       });
     },
@@ -1472,7 +1473,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C169 || CT.C169,
         name: null,
         column: 21,
-        line: 300,
+        line: 302,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1482,7 +1483,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "padding",
         column: 28,
-        line: 303,
+        line: 305,
         file: null
       });
     },
@@ -1495,7 +1496,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C173 || CT.C173,
         name: null,
         column: 20,
-        line: 303,
+        line: 305,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1505,7 +1506,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "padding",
         column: 15,
-        line: 315,
+        line: 317,
         file: null
       });
     },
@@ -1515,7 +1516,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 316,
+        line: 318,
         file: null
       });
     },
@@ -1528,7 +1529,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C176 || CT.C176,
         name: null,
         column: 25,
-        line: 314,
+        line: 316,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1538,7 +1539,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 18,
-        line: 331,
+        line: 333,
         file: null
       });
     },
@@ -1551,7 +1552,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C180 || CT.C180,
         name: null,
         column: 13,
-        line: 331,
+        line: 333,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1561,7 +1562,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 11,
-        line: 328,
+        line: 330,
         file: null
       });
     },
@@ -1571,7 +1572,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "children",
         column: 11,
-        line: 329,
+        line: 331,
         file: null
       });
     },
@@ -1584,7 +1585,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C183 || CT.C183,
         name: null,
         column: 16,
-        line: 327,
+        line: 329,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1594,7 +1595,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "margin",
         column: 9,
-        line: 321,
+        line: 323,
         file: null
       });
     },
@@ -1604,7 +1605,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "width",
         column: 9,
-        line: 324,
+        line: 326,
         file: null
       });
     },
@@ -1614,7 +1615,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "child",
         column: 9,
-        line: 327,
+        line: 329,
         file: null
       });
     },
@@ -1627,7 +1628,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C187 || CT.C187,
         name: null,
         column: 12,
-        line: 320,
+        line: 322,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1637,7 +1638,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "data",
         column: 17,
-        line: 337,
+        line: 339,
         file: null
       });
     },
@@ -1647,7 +1648,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 9,
-        line: 338,
+        line: 340,
         file: null
       });
     },
@@ -1660,7 +1661,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C192 || CT.C192,
         name: null,
         column: 12,
-        line: 337,
+        line: 339,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1670,7 +1671,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "data",
         column: 9,
-        line: 344,
+        line: 346,
         file: null
       });
     },
@@ -1680,7 +1681,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "style",
         column: 9,
-        line: 345,
+        line: 347,
         file: null
       });
     },
@@ -1693,7 +1694,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C196 || CT.C196,
         name: null,
         column: 14,
-        line: 343,
+        line: 345,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     },
@@ -1703,7 +1704,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: null,
         name: "label",
         column: 7,
-        line: 343,
+        line: 345,
         file: null
       });
     },
@@ -1716,7 +1717,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
         parameterLocations: C200 || CT.C200,
         name: null,
         column: 12,
-        line: 342,
+        line: 344,
         file: "org-dartlang-app:///packages/kakro/ui/About_page.dart"
       });
     }
@@ -1992,6 +1993,12 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
     set rotationController(value) {
       this[rotationController] = value;
     }
+    get aboutMeText() {
+      return this[aboutMeText];
+    }
+    set aboutMeText(value) {
+      this[aboutMeText] = value;
+    }
     get skills() {
       return this[skills];
     }
@@ -2035,7 +2042,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
       return new FadeIn.FadeIn.new(2.66, new text$.Text.new("Mobile Application Developer,\nfrom Abu Dhabi, United Arab Emiretes", {textAlign: dart.equals(this.sizingInformation.deviceType, device_screen_size.DeviceScreenType.Mobile) ? ui.TextAlign.center : ui.TextAlign.start, style: new text_style.TextStyle.new({fontSize: 18.0, wordSpacing: 3.0}), $creationLocationd_0dea112b090073317d4: C125 || CT.C125}), "left", {$creationLocationd_0dea112b090073317d4: C130 || CT.C130});
     }
     [_buildIntro](context) {
-      return new FadeIn.FadeIn.new(2.99, new text$.Text.new("Mobile Application Developer,from Abu Dhabi, United Arab Emiretes, I' am Shashank Kakroo, Mobile Application Developer,from Abu Dhabi, United Arab Emiretes I' am Shashank Kakroo, Mobile Application Developer, from Abu Dhabi, United Arab EmiretesI' am Shashank Kakroo, Mobile Application Developer,from Abu Dhabi, United Arab Emiretes, I' am Shashank Kakroo, Mobile Application Developer, from Abu Dhabi, United Arab Emiretes , I' am Shashank Kakroo, Mobile Application Developer,\nfrom Abu Dhabi, United Arab Emiretes, I' am Shashank Kakroo, Mobile Application Developer, from Abu Dhabi, United Arab Emiretes , I' am Shashank Kakroo, Mobile Application Developer,\nfrom Abu Dhabi, United Arab Emiretes", {textAlign: dart.equals(this.sizingInformation.deviceType, device_screen_size.DeviceScreenType.Mobile) ? ui.TextAlign.justify : ui.TextAlign.start, style: new text_style.TextStyle.new({fontSize: 14.0, color: colors.Colors.black54, wordSpacing: 2.0}), $creationLocationd_0dea112b090073317d4: C135 || CT.C135}), "left", {$creationLocationd_0dea112b090073317d4: C140 || CT.C140});
+      return new FadeIn.FadeIn.new(2.99, new text$.Text.new(dart.toString(this.aboutMeText), {textAlign: dart.equals(this.sizingInformation.deviceType, device_screen_size.DeviceScreenType.Mobile) ? ui.TextAlign.justify : ui.TextAlign.start, style: new text_style.TextStyle.new({fontSize: 14.0, color: colors.Colors.black54, wordSpacing: 2.0}), $creationLocationd_0dea112b090073317d4: C135 || CT.C135}), "left", {$creationLocationd_0dea112b090073317d4: C140 || CT.C140});
     }
     [_createExperience](context) {
       return new container.Container.new({width: dart.equals(this.sizingInformation.deviceType, device_screen_size.DeviceScreenType.Mobile) ? media_query.MediaQuery.of(framework.BuildContext._check(context)).size.width : dart.notNull(media_query.MediaQuery.of(framework.BuildContext._check(context)).size.width) * 0.3, child: new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: this[_getExperienceList](), $creationLocationd_0dea112b090073317d4: C145 || CT.C145}), $creationLocationd_0dea112b090073317d4: C149 || CT.C149});
@@ -2066,7 +2073,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
       return new text$.Text.new("What Skills I Have", {style: new text_style.TextStyle.new({fontSize: 18.0, wordSpacing: 3.0}), $creationLocationd_0dea112b090073317d4: C191 || CT.C191});
     }
     [_buildSkillChip](context, label) {
-      return new chip.Chip.new({label: new text$.Text.new(label, {style: new text_style.TextStyle.new({fontSize: 10.0}), $creationLocationd_0dea112b090073317d4: C195 || CT.C195}), $creationLocationd_0dea112b090073317d4: C199 || CT.C199});
+      return new chip.Chip.new({label: new text$.Text.new(label, {style: new text_style.TextStyle.new({fontSize: 12.0}), $creationLocationd_0dea112b090073317d4: C195 || CT.C195}), $creationLocationd_0dea112b090073317d4: C199 || CT.C199});
     }
     createState() {
       return null;
@@ -2075,6 +2082,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
   (About_page.AboutTabState.new = function(sizingInformation) {
     this[sizingInformation$0] = null;
     this[rotationController] = null;
+    this[aboutMeText] = "6 years of experience in IT industry, exclusively in Mobile Application Development.\nHaving good Knowledge of Flutter, Dart, Kony 8.X, 7.X, 6.X, Visualizer and Android.\nExperience in all activities of Software Development Life Cycle (SDLC), team skills, presentation abilities, issue resolution capabilities and experience in project implementation.\nWorking experience in Integrating Firebase with Flutter.\nHaving Working knowledge of publishing App on Google Play Store.\nA self-Motivated professional Skilled at balancing and prioritizing tasks to meet deadline, excellent technological, analytical and ability to learn quickly and apply new technologies.";
     this[skills] = JSArrayOfString().of(["Cross platform development", "Android", "Flutter", "Dart", "Firebase", "Kony Visualizer", "Kony Mobile Fabric", "Java", "JavaScript", "GIT", "SVN", "JIRA"]);
     this[experience] = JSArrayOfMapOfString$String().of([new (IdentityMapOfString$String()).from(["title", "System Analyst", "company", "Abu Dhabi Commencial Bank", "text", "Mobile Application Developer - Kony"]), new (IdentityMapOfString$String()).from(["title", "Flutter & Android Developer", "company", "Freelancing", "text", "Worked on part time projects for flutter and android native"]), new (IdentityMapOfString$String()).from(["title", "Software Engineer", "company", "GFI Informatique India Pvt Ltd.", "text", "Kony Application Developer"]), new (IdentityMapOfString$String()).from(["title", "Software Engineer", "company", "InnovationM", "text", "Android Developer"]), new (IdentityMapOfString$String()).from(["title", "Associate Engineer", "company", "InfoStretch", "text", "Developer"])]);
     About_page.AboutTabState.__proto__.new.call(this);
@@ -2083,6 +2091,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
   dart.addTypeTests(About_page.AboutTabState);
   const sizingInformation$0 = Symbol("AboutTabState.sizingInformation");
   const rotationController = Symbol("AboutTabState.rotationController");
+  const aboutMeText = Symbol("AboutTabState.aboutMeText");
   const skills = Symbol("AboutTabState.skills");
   const experience = Symbol("AboutTabState.experience");
   dart.setMethodSignature(About_page.AboutTabState, () => ({
@@ -2107,6 +2116,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
     __proto__: dart.getFields(About_page.AboutTabState.__proto__),
     sizingInformation: dart.fieldType(sizing_info.SizingInformation),
     rotationController: dart.fieldType(animation_controller.AnimationController),
+    aboutMeText: dart.fieldType(core.String),
     skills: dart.finalFieldType(core.List$(core.String)),
     experience: dart.finalFieldType(core.List$(core.Map$(core.String, core.String)))
   }));
@@ -2118,7 +2128,7 @@ define(['dart_sdk', 'packages/flutter/src/foundation/_bitfield_web', 'packages/f
   dart.trackLibraries("packages/kakro/ui/About_page", {
     "package:kakro/ui/About_page.dart": About_page
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["About_page.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"About_page.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["About_page.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"About_page.ddc.js"}');
   // Exports:
   return {
     ui__About_page: About_page

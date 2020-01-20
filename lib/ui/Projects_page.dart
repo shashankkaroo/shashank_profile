@@ -82,7 +82,6 @@ class ProjectsPageState extends State<ProjectsPage> {
       "color": Colors.yellowAccent.shade100.withOpacity(0.9),
       "txtColor": Colors.deepOrangeAccent.shade200
     },
-
     {
       "title": "Abu Dhabi Commercial Bank - PROCASH",
       "text" : "ADCB Coorporate Banking Applicaton",
@@ -98,7 +97,6 @@ class ProjectsPageState extends State<ProjectsPage> {
       "color": Colors.lightGreenAccent.shade100.withOpacity(0.9),
       "txtColor": Colors.lightGreenAccent.shade700
     },
-
     {
       "title": "Ooredoo, Qatar",
       "text": "HRMS Mobile Application",

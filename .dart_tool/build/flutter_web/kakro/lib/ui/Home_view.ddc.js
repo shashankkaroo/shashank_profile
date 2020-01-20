@@ -110,7 +110,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/kakro/ui/B
       return C9 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "contactKey",
+        name: "projectKey",
         column: 37,
         line: 44,
         file: null

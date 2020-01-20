@@ -28,6 +28,8 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
 
   AnimationController rotationController;
 
+  String aboutMeText = "6 years of experience in IT industry, exclusively in Mobile Application Development.\nHaving good Knowledge of Flutter, Dart, Kony 8.X, 7.X, 6.X, Visualizer and Android.\nExperience in all activities of Software Development Life Cycle (SDLC), team skills, presentation abilities, issue resolution capabilities and experience in project implementation.\nWorking experience in Integrating Firebase with Flutter.\nHaving Working knowledge of publishing App on Google Play Store.\nA self-Motivated professional Skilled at balancing and prioritizing tasks to meet deadline, excellent technological, analytical and ability to learn quickly and apply new technologies.";
+
   final skills = [
     'Cross platform development',
     'Android',
@@ -265,7 +267,7 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
     return FadeIn(
         2.99,
         Text(
-            "Mobile Application Developer,from Abu Dhabi, United Arab Emiretes, I' am Shashank Kakroo, Mobile Application Developer,from Abu Dhabi, United Arab Emiretes I' am Shashank Kakroo, Mobile Application Developer, from Abu Dhabi, United Arab EmiretesI' am Shashank Kakroo, Mobile Application Developer,from Abu Dhabi, United Arab Emiretes, I' am Shashank Kakroo, Mobile Application Developer, from Abu Dhabi, United Arab Emiretes , I' am Shashank Kakroo, Mobile Application Developer,\nfrom Abu Dhabi, United Arab Emiretes, I' am Shashank Kakroo, Mobile Application Developer, from Abu Dhabi, United Arab Emiretes , I' am Shashank Kakroo, Mobile Application Developer,\nfrom Abu Dhabi, United Arab Emiretes",
+            aboutMeText.toString(),
             textAlign: (sizingInformation.deviceType == DeviceScreenType.Mobile)
                 ? TextAlign.justify
                 : TextAlign.start,
@@ -343,7 +345,7 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
       label: Text(
         label,
         style: TextStyle(
-          fontSize: 10,
+          fontSize: 12,
         ),
       ),
     );
