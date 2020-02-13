@@ -205,7 +205,7 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
               Container(
                   margin:  EdgeInsets.only(left: 35, top: 34),
                   child: Image.network(
-                    "https://firebasestorage.googleapis.com/v0/b/fitapp-fitness.appspot.com/o/IMG_20191201_184554-removebg-preview.png?alt=media&token=4b491acb-3850-48cd-b0a0-28bcf9d082b8",
+                    "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/profile.png?alt=media&token=f8558592-3239-42c4-aceb-4db2c06a4540",
                     width: (sizingInformation.deviceType == DeviceScreenType.Mobile) ?  MediaQuery.of(context).size.width * 0.60 : MediaQuery.of(context).size.width * 0.32,
                     height: (sizingInformation.deviceType == DeviceScreenType.Mobile) ? MediaQuery.of(context).size.width * 0.60  : MediaQuery.of(context).size.width * 0.32,
                   ))
