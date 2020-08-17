@@ -1,8 +1,6 @@
-import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:kakro/enums/device_screen_size.dart';
-import 'package:kakro/ui/BaseWidget.dart';
 import 'package:kakro/ui/FadeIn.dart';
 import 'package:kakro/ui/sizing_info.dart';
 
@@ -36,6 +34,8 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
     'Flutter',
     'Dart',
     'Firebase',
+    'Firestore',
+    'Firebase Cloud Functions',
     'Kony Visualizer',
     'Kony Mobile Fabric',
     'Java',
@@ -43,6 +43,8 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
     'GIT',
     'SVN',
     'JIRA',
+    'SEO',
+    'Digital Marketing',
   ];
 
   // experience
@@ -87,7 +89,7 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: (sizingInformation.deviceType == DeviceScreenType.Desktop) ?  MediaQuery.of(context).size.height : null,
+       // height: (sizingInformation.deviceType == DeviceScreenType.Desktop) ?  MediaQuery.of(context).size.height : null,
         key: widget.aboutKey,
         child: _getContentForAboutMe(sizingInformation, context),
     );
@@ -208,6 +210,8 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
                     "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/profile.png?alt=media&token=f8558592-3239-42c4-aceb-4db2c06a4540",
                     width: (sizingInformation.deviceType == DeviceScreenType.Mobile) ?  MediaQuery.of(context).size.width * 0.60 : MediaQuery.of(context).size.width * 0.32,
                     height: (sizingInformation.deviceType == DeviceScreenType.Mobile) ? MediaQuery.of(context).size.width * 0.60  : MediaQuery.of(context).size.width * 0.32,
+                    filterQuality: FilterQuality.low,
+                    semanticLabel: "Shashank Kakroo Mobile Application Developer / freelance developer in AbuDhabi",
                   ))
             ],
           ),
@@ -268,11 +272,8 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
         2.99,
         Text(
             aboutMeText.toString(),
-            textAlign: (sizingInformation.deviceType == DeviceScreenType.Mobile)
-                ? TextAlign.justify
-                : TextAlign.start,
             style: TextStyle(
-                fontSize: 14.0, color: Colors.black54, wordSpacing: 2.0)),
+                fontSize: 17.0, color: Colors.black54, wordSpacing: 3.0)),
         "left");
   }
 
@@ -290,21 +291,23 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
   List<Widget> _getExperienceList() {
     List<Widget> exp = new List();
     Widget a =
-        Text("Experience", style: TextStyle(fontSize: 18.0, wordSpacing: 3.0));
+        Text("Experience", style: TextStyle(fontSize: 20.0, wordSpacing: 3.0));
     Widget pad = Padding(padding: EdgeInsets.only(top: 10));
     exp.add(a);
     exp.add(pad);
     for (var i = 0; i < experience.length; i++) {
       Widget title = Text(experience[i]['title'],
-          style: TextStyle(fontSize: 15.0, wordSpacing: 2.0));
+          style: TextStyle(fontSize: 16.0, wordSpacing: 2.0));
       Widget company = Text(experience[i]['company'],
-          style: TextStyle(fontSize: 14.0, wordSpacing: 2.0));
+          style: TextStyle(fontSize: 15.0, wordSpacing: 2.0));
       Widget text = Text(experience[i]['text'],
           style: TextStyle(
-              fontSize: 14.0, color: Colors.black54, wordSpacing: 2.0));
-      Widget pad = Padding(padding: EdgeInsets.only(top: 10));
+              fontSize: 15.0, color: Colors.black54, wordSpacing: 2.0));
+      Widget pad = Padding(padding: EdgeInsets.only(top: 15));
+      Widget padMini = Padding(padding: EdgeInsets.only(top: 5));
       exp.add(title);
       exp.add(company);
+      exp.add(padMini);
       exp.add(text);
       exp.add(pad);
     }
@@ -345,7 +348,7 @@ class AboutTabState extends State<AboutMe> with SingleTickerProviderStateMixin {
       label: Text(
         label,
         style: TextStyle(
-          fontSize: 12,
+          fontSize: 14,
         ),
       ),
     );

@@ -35,7 +35,6 @@ class _HomeViewState extends State<HomeView> {
               floatingActionButton:
                   buildFloatingButton(context, sizingInformation),
               body: Container(
-                  height: MediaQuery.of(context).size.height,
                   child: SingleChildScrollView(
                     child: Column(
                       children: <Widget>[
@@ -94,15 +93,15 @@ class _HomeViewState extends State<HomeView> {
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: Icon(Icons.account_circle),
-                title: Text('About'),
+                label: 'About',
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.chrome_reader_mode),
-                title: Text('Projects'),
+                label: 'Projects',
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.mobile_screen_share),
-                title: Text('Contact Me'),
+                  label: 'Contact Me',
               )
             ],
             currentIndex: _selectedIndex,
@@ -140,25 +139,25 @@ class _HomeViewState extends State<HomeView> {
       FadeIn(
           2,
           MaterialButton(
-            padding: EdgeInsets.only(right: 50),
+            padding: EdgeInsets.only(right: 25, left: 25),
             child: Text(
               "About Me",
             ),
             onPressed: () {
               returnSelectedTab(0);
             },
-            focusColor: Colors.greenAccent,
             autofocus: true,
+            focusColor: Colors.transparent,
+            highlightColor: Colors.transparent,
           ),
           "right"),
       FadeIn(
           2.33,
           MaterialButton(
-            padding: EdgeInsets.only(right: 50),
+            padding: EdgeInsets.only(right: 25, left: 25),
             child: Text(
               "Projects",
             ),
-            focusColor: Colors.greenAccent,
             onPressed: () {
               returnSelectedTab(1);
             },
@@ -167,11 +166,10 @@ class _HomeViewState extends State<HomeView> {
       FadeIn(
           2.66,
           MaterialButton(
-            padding: EdgeInsets.only(right: 50),
+            padding: EdgeInsets.only(right: 25, left: 25),
             child: Text(
               "Contact Me",
             ),
-            focusColor: Colors.greenAccent,
             onPressed: () {
               returnSelectedTab(2);
             },

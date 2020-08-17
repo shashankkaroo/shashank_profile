@@ -48,7 +48,6 @@ class ContactPageState extends State<ContactPage> {
         ));
   }
 
-
   Widget _contactGridMob(BuildContext context, sizingInformation) {
     return Container(
         height : MediaQuery.of(context).size.height,
@@ -331,7 +330,7 @@ class ContactPageState extends State<ContactPage> {
                 _launchURL("https://www.linkedin.com/in/shashank-kakroo");
               },
               child: Text(
-                "  https://www.linkedin.com/in/shashank-kakroo",
+                "   www.linkedin.com/in/shashank-kakroo",
                 style: TextStyle(fontSize: 20),
                 ),
               )
@@ -352,7 +351,7 @@ class ContactPageState extends State<ContactPage> {
                     _launchURL("https://www.facebook.com/shashank.kakroo");
                   },
                   child: Text(
-                    "  https://www.facebook.com/shashank.kakroo",
+                    "   www.facebook.com/shashank.kakroo",
                     style: TextStyle(fontSize: 20),
                     ),
                   )
@@ -370,7 +369,7 @@ class ContactPageState extends State<ContactPage> {
                   ),
                 GestureDetector(
                   onTap: () {
-                    _launchURL("https://www.instagram.com/shashankkakroo");
+                    _launchURL("https://www.instagram.com/abudhabifoodbloggers");
                   },
                   child: Text(
                     "  @shashankkakroo",
@@ -417,6 +416,7 @@ class ContactPageState extends State<ContactPage> {
                             DeviceScreenType.Mobile)
                         ? MediaQuery.of(context).size.width * 0.60
                         : MediaQuery.of(context).size.width * 0.42,
+                    semanticLabel: "Shashank Kakroo Mobile Application Developer / freelance developer in AbuDhabi",
                   ))
             ],
           ),

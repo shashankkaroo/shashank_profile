@@ -248,10 +248,6 @@ class ProjectsPageState extends State<ProjectsPage> {
                     child: Container(
                         alignment: Alignment.center,
                         margin: EdgeInsets.only(top: 30),
-                        height: sizingInformation.deviceType ==
-                                DeviceScreenType.Mobile
-                            ? null
-                            : MediaQuery.of(context).size.width * 0.30,
                         width: MediaQuery.of(context).size.width,
                         child: Container(
                             child: sizingInformation.deviceType ==
@@ -324,9 +320,7 @@ class ProjectsPageState extends State<ProjectsPage> {
   _sectionData(i, sizingInformation) {
     return Container(
       margin: sizingInformation.deviceType == DeviceScreenType.Mobile ? EdgeInsets.only(top : 20) : null,
-        height: sizingInformation.deviceType == DeviceScreenType.Mobile
-            ? null
-            : MediaQuery.of(context).size.width * 0.30,
+
         width: sizingInformation.deviceType == DeviceScreenType.Mobile
             ? MediaQuery.of(context).size.width
             : MediaQuery.of(context).size.width * 0.45,
@@ -336,19 +330,19 @@ class ProjectsPageState extends State<ProjectsPage> {
           children: <Widget>[
             Text(i['title'],
                 textAlign: TextAlign.start,
-                style: TextStyle(fontSize: 22.0, wordSpacing: 3.0)),
+                style: TextStyle(fontSize: 23.0, wordSpacing: 3.0)),
             Container(
               margin: EdgeInsets.only(top: 5),
               child: Text(i['text'],
                   textAlign: TextAlign.start,
-                  style: TextStyle(fontSize: 15.0, wordSpacing: 2.0)),
+                  style: TextStyle(fontSize: 16.0, wordSpacing: 2.0)),
             ),
             Container(
-              margin: EdgeInsets.only(top: 15),
+              margin: EdgeInsets.only(top: 16),
               child: Text(i['summary'],
                   textAlign: TextAlign.start,
                   style: TextStyle(
-                      fontSize: 14.0, color: Colors.black54, wordSpacing: 2.0)),
+                      fontSize: 15.0, color: Colors.black54, wordSpacing: 2.0)),
             ),
             _buildSkillsContainerHeading("Responsibilities"),
             Container(
@@ -356,7 +350,7 @@ class ProjectsPageState extends State<ProjectsPage> {
               child: Text(i['summary2'],
                   textAlign: TextAlign.start,
                   style: TextStyle(
-                      fontSize: 14.0, color: Colors.black54, wordSpacing: 2.0)),
+                      fontSize: 15.0, color: Colors.black54, wordSpacing: 2.0)),
             ),
             _buildSkills(context, i, sizingInformation),
           ],
@@ -396,7 +390,7 @@ class ProjectsPageState extends State<ProjectsPage> {
       label: Text(
         label,
         style: TextStyle(
-          fontSize: 10,
+          fontSize: 13,
         ),
       ),
     );
