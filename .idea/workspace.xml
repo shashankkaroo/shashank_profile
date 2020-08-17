@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="260512b9-ee00-4e7d-bce2-557d131bd3b4" name="Default Changelist" comment="" />
+    <list default="true" id="260512b9-ee00-4e7d-bce2-557d131bd3b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/FontManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/assets/FontManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/main.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/main.dart.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/main.dart.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakroo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/Contact_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/Contact_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ensureVisible</find>
-      <find>_selectedIndex</find>
-      <find>justi</find>
-      <find>FadeIn</find>
-      <find>_projectsGrid</find>
-      <find>_buildSkills</find>
-      <find>sizingInformation</find>
-      <find>skills</find>
-      <find>network</find>
-      <find>_contactGrid</find>
-      <find>_buildAboutMe</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +31,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -64,20 +61,41 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="756" key="DiffContextDialog" timestamp="1597660113033">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="100" y="123" width="1480" height="756" key="DiffContextDialog/0.23.1680.956@0.23.1680.956" timestamp="1597660113033" />
+    <state width="1638" height="256" key="GridCell.Tab.0.bottom" timestamp="1597661844371">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1597661213592" />
+    <state width="1638" height="256" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1597661844371" />
+    <state width="1638" height="256" key="GridCell.Tab.0.center" timestamp="1597661844371">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1597661213591" />
+    <state width="1638" height="256" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1597661844371" />
+    <state width="1638" height="256" key="GridCell.Tab.0.left" timestamp="1597661844370">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1597661213591" />
+    <state width="1638" height="256" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1597661844370" />
+    <state width="1638" height="256" key="GridCell.Tab.0.right" timestamp="1597661844371">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1597661213591" />
+    <state width="1638" height="256" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1597661844371" />
     <state x="100" y="123" width="1480" height="756" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597660113033">
       <screen x="0" y="23" width="1680" height="956" />
     </state>

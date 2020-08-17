@@ -134,21 +134,20 @@ class ContactPageState extends State<ContactPage> {
                       children: <Widget>[
                         Image.network(
                           "https://firebasestorage.googleapis.com/v0/b/shashank-kakroo.appspot.com/o/linkdn.png?alt=media&token=bd98e80e-673b-4dfe-95b3-d66ec009e772",
-                          width: 23,
+                              width: 23,
                           height: 23,
-                          ),
+                        ),
                         GestureDetector(
                           onTap: () {
                             _launchURL("https://www.linkedin.com/in/shashank-kakroo");
                           },
                           child: Text(
-                            "  https://www.linkedin.com/in/shashank-kakroo",
+                            "  www.linkedin.com/in/shashank-kakroo",
                             style: TextStyle(fontSize: 14),
-                            ),
-                          )
+                          ),
+                        )
                       ],
-                      ),
-
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.center,
@@ -163,13 +162,12 @@ class ContactPageState extends State<ContactPage> {
                             _launchURL("https://www.facebook.com/shashank.kakroo");
                           },
                           child: Text(
-                            "  https://www.facebook.com/shashank.kakroo",
+                            "  www.facebook.com/shashank.kakroo",
                             style: TextStyle(fontSize: 14),
                             ),
                           )
                       ],
                       ),
-
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.center,
@@ -181,7 +179,7 @@ class ContactPageState extends State<ContactPage> {
                           ),
                         GestureDetector(
                           onTap: () {
-                            _launchURL("https://www.instagram.com/shashankkakroo");
+                            _launchURL("https://www.instagram.com/abudhabifoodbloggers");
                           },
                           child: Text(
                             "  @shashankkakroo",
@@ -190,7 +188,6 @@ class ContactPageState extends State<ContactPage> {
                           )
                       ],
                       )
-
                   ],
                   )),
           ],
@@ -245,7 +242,7 @@ class ContactPageState extends State<ContactPage> {
           child: _generateContactPic(sizingInformation),
         ),
         Container(
-            height : MediaQuery.of(context).size.width * 0.20,
+            //height : MediaQuery.of(context).size.width * 0.20,
             child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -394,7 +391,6 @@ class ContactPageState extends State<ContactPage> {
               Container(
                   child: Image.network(
                 "https://i.pinimg.com/originals/8b/a8/b8/8ba8b89f095d837cd54c7eb5ef31b99d.png",
-                color: Colors.transparent,
                 fit: BoxFit.fill,
                 width: (sizingInformation.deviceType == DeviceScreenType.Mobile)
                     ? MediaQuery.of(context).size.width * 0.75
