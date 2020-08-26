@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     return new MaterialApp(
-      title: 'Shashank Kakroo',
+      title: 'Shashank Kakroo - Mobile Application Developer | Kony Developer | Flutter',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.light,

@@ -44079,7 +44079,7 @@ $S:12}
 S.oe.prototype={
 i:function(a){return this.b}}
 F.xh.prototype={
-G:function(a,b){return new S.pb(new O.oM(null),"Shashank Kakroo",X.a0b(C.E,C.E,"Lato",C.E),!1,null)}}
+G:function(a,b){return new S.pb(new O.oM(null),"Shashank Kakroo - Mobile Application Developer | Kony Developer | Flutter",X.a0b(C.E,C.E,"Lato",C.E),!1,null)}}
 Y.ny.prototype={
 ay:function(){var s="Software Engineer",r=this.c,q=t.Q
 q=new Y.ut(H.b(["Cross platform development","Android","Flutter","Dart","Firebase","Firestore","Firebase Cloud Functions","Kony Visualizer","Kony Mobile Fabric","Java","JavaScript","GIT","SVN","JIRA","SEO","Digital Marketing"],t.i),H.b([P.aH(["title","System Analyst","company","Abu Dhabi Commencial Bank","text","Mobile Application Developer - Kony"],q,q),P.aH(["title","Flutter & Android Developer","company","Freelancing","text","Worked on part time projects for flutter and android native"],q,q),P.aH(["title",s,"company","GFI Informatique India Pvt Ltd.","text","Kony Application Developer"],q,q),P.aH(["title",s,"company","InnovationM","text","Android Developer"],q,q),P.aH(["title","Associate Engineer","company","InfoStretch","text","Developer"],q,q)],t.oA),null,C.l)

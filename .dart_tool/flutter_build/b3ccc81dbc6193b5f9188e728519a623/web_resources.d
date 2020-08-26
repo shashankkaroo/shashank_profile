@@ -1,1 +1,1 @@
- build/web/index.html:  /Users/adcbkony/Desktop/shashank_work2.0/shashank_profile/shashank_profile/web/index.html
+ build/web/favicon.ico build/web/index.html:  /Users/adcbkony/Desktop/shashank_work2.0/shashank_profile/shashank_profile/web/favicon.ico /Users/adcbkony/Desktop/shashank_work2.0/shashank_profile/shashank_profile/web/index.html
